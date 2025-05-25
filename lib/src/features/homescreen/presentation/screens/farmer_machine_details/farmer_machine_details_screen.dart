@@ -1,5 +1,6 @@
 import 'package:fast_cached_network_image/fast_cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:tractorapp/src/core/constants/colors.dart';
 import 'package:tractorapp/src/shared/widgets/buttons/custombuttons.dart';
@@ -267,7 +268,9 @@ class _FarmerMachineDetailsScreenState
             color: AppColors.primaryGreen,
             textColor: AppColors.white,
             text: 'Order Machine',
-            onPressed: () {},
+            onPressed: () {
+              context.pushNamed('farmer-order', extra: widget.machine);
+            },
           ),
         ),
         SizedBox(height: 1.h),
