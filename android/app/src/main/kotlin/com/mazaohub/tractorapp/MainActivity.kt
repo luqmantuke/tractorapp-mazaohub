@@ -1,4 +1,4 @@
-package com.example.tractorapp
+package com.mazaohub.tractorapp
 
 import io.flutter.embedding.android.FlutterActivity
 

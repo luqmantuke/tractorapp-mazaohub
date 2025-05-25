@@ -18,6 +18,7 @@ class _AuthenticationWrapperState extends ConsumerState<AuthenticationWrapper> {
   Future<void> initializeApp() async {
     await Future.delayed(const Duration(seconds: 1));
     if (!mounted) return;
+
     final isLoggedIn = ref.read(isLoggedInPreferenceProvider);
     final prefs = ref.read(sharedPreferenceInstanceProvider);
     final userTypeString = prefs.getString('user_type');

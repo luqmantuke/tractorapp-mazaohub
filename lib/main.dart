@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:fast_cached_network_image/fast_cached_network_image.dart';
-import 'package:firebase_core/firebase_core.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
@@ -8,6 +8,7 @@ import 'package:overlay_support/overlay_support.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:tractorapp/src/core/providers/shared_preferences/shared_preference_provider.dart';
 import 'package:tractorapp/src/core/router/config/router_config.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
@@ -24,6 +25,8 @@ Future<void> main() async {
   );
 
   final sharedPreferences = await SharedPreferences.getInstance();
+
+  await dotenv.load();
 
   // Use the container to initialize the app
   runApp(

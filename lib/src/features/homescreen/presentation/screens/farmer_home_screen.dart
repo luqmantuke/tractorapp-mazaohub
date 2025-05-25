@@ -1,16 +1,39 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
+import '../widgets/farmer/farmer_bottom_nav.dart';
+import 'farmer_home_page/farmer_home_page.dart';
 
-class FarmerHomeScreen extends StatelessWidget {
+class FarmerHomeScreen extends StatefulWidget {
   const FarmerHomeScreen({super.key});
+
+  @override
+  State<FarmerHomeScreen> createState() => _FarmerHomeScreenState();
+}
+
+class _FarmerHomeScreenState extends State<FarmerHomeScreen> {
+  int _selectedIndex = 0;
+  final TextEditingController _searchController = TextEditingController();
+
+  late final List<Widget> _pages = [
+    FarmerHomePage(searchController: _searchController),
+    const Center(child: Text('Add Widget')),
+    const Center(child: Text('Menu Widget')),
+    const Center(child: Text('Profile Widget')),
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:
-          AppBar(title: Text('Farmer Home', style: TextStyle(fontSize: 18.sp))),
-      body: Center(
-        child: Text('Welcome, Farmer!', style: TextStyle(fontSize: 18.sp)),
+      backgroundColor: Colors.grey[100],
+      body: SafeArea(
+        child: _pages[_selectedIndex],
+      ),
+      bottomNavigationBar: FarmerBottomNav(
+        selectedIndex: _selectedIndex,
+        onTap: (index) {
+          setState(() {
+            _selectedIndex = index;
+          });
+        },
       ),
     );
   }
