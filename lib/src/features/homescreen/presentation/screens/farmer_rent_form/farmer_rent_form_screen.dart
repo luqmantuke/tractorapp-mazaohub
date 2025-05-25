@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:tractorapp/src/core/constants/colors.dart';
 import 'package:tractorapp/src/shared/widgets/buttons/custombuttons.dart';
@@ -170,10 +171,7 @@ class _FarmerRentFormScreenState extends State<FarmerRentFormScreen> {
 
   void _onPayNow() {
     if (_formKey.currentState?.validate() ?? false) {
-      // Handle pay now logic
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Payment submitted!')),
-      );
+      context.pushNamed('farmer-quote');
     }
   }
 }
