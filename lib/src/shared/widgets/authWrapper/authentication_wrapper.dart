@@ -15,23 +15,10 @@ class AuthenticationWrapper extends ConsumerStatefulWidget {
 }
 
 class _AuthenticationWrapperState extends ConsumerState<AuthenticationWrapper> {
-  bool _isInitialized = false;
-
   Future<void> initializeApp() async {
-    try {
-      // Initialize shared preferences
-      WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-        setState(() => _isInitialized = true);
-        context.goNamed('onboarding');
-      });
-    } catch (e) {
-      log("[AUTH]: Error during initialization: $e");
-      if (mounted) {
-        WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
-          setState(() => _isInitialized = true);
-          context.goNamed('onboarding');
-        });
-      }
+    await Future.delayed(const Duration(seconds: 1));
+    if (mounted) {
+      context.goNamed('onboarding');
     }
   }
 
@@ -43,13 +30,11 @@ class _AuthenticationWrapperState extends ConsumerState<AuthenticationWrapper> {
 
   @override
   Widget build(BuildContext context) {
-    if (!_isInitialized) {
-      return Scaffold(
-        body: Center(
-          child: Image.asset(AssetImages.logo),
-        ),
-      );
-    }
-    return const Scaffold();
+    // Always show the splash while initializing
+    return Scaffold(
+      body: Center(
+        child: Image.asset(AssetImages.logo),
+      ),
+    );
   }
 }

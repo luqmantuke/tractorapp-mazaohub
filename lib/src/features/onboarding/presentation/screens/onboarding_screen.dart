@@ -8,7 +8,20 @@ final List<OnboardingPage> onboardingPages = [
     description:
         'Knowledge at your fingertips: E-Learning for Rural Water Professionals',
     imageUrl:
-        'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1606739211185-2c846d734a6d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  ),
+  OnboardingPage(
+    title: 'A Fresh Start',
+    description: 'A fresh start for your business: Start your journey with us',
+    imageUrl:
+        'https://images.unsplash.com/photo-1602446692855-6d096499f69b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  ),
+  OnboardingPage(
+    title: 'Mechanic Everywhere',
+    description:
+        'Find a mechanic near you: Get your vehicle fixed quickly and easily',
+    imageUrl:
+        'https://images.unsplash.com/photo-1508042084044-8e6975d7272c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   ),
   // Add more pages as needed
 ];

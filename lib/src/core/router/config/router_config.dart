@@ -16,10 +16,12 @@ final routerProvider = Provider<GoRouter>((ref) {
     routes: [
       GoRoute(
         path: '/authenticationWrapper',
+        name: 'authenticationWrapper',
         builder: (context, state) => const AuthenticationWrapper(),
       ),
       GoRoute(
         path: '/onboarding',
+        name: 'onboarding',
         builder: (context, state) => const OnboardingScreen(),
       ),
     ],
