@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import 'package:tractorapp/src/features/auth/presentation/screens/login_screen.dart';
 import 'package:tractorapp/src/features/homescreen/presentation/screens/farmer_machine_details/farmer_machine_details_screen.dart';
 import 'package:tractorapp/src/features/homescreen/presentation/screens/farmer_order/farmer_order_screen.dart';
+import 'package:tractorapp/src/features/homescreen/presentation/screens/farmer_rent_form/farmer_rent_form_screen.dart';
 import 'package:tractorapp/src/features/homescreen/presentation/screens/farmer_search/farmer_search_screen.dart';
 import 'package:tractorapp/src/features/onboarding/presentation/screens/onboarding_screen.dart';
 import 'package:tractorapp/src/shared/widgets/authWrapper/authentication_wrapper.dart';
@@ -69,6 +70,11 @@ final routerProvider = Provider<GoRouter>((ref) {
         builder: (context, state) => FarmerOrderScreen(
           machine: state.extra as Map<String, dynamic>,
         ),
+      ),
+      GoRoute(
+        path: '/farmer-rent-form',
+        name: 'farmer-rent-form',
+        builder: (context, state) => const FarmerRentFormScreen(),
       ),
     ],
   );

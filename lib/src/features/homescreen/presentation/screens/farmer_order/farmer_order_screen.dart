@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:fast_cached_network_image/fast_cached_network_image.dart';
 import 'package:tractorapp/src/core/constants/colors.dart';
@@ -255,7 +256,9 @@ class _FarmerOrderScreenState extends State<FarmerOrderScreen> {
           text: 'Pay Now',
           color: AppColors.primaryGreen,
           textColor: AppColors.white,
-          onPressed: () {},
+          onPressed: () {
+            context.pushNamed('farmer-rent-form');
+          },
         ),
         SizedBox(height: 1.h),
         CustomButton(
