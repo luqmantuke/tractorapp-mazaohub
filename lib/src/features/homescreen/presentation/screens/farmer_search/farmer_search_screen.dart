@@ -1,7 +1,9 @@
 import 'package:fast_cached_network_image/fast_cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:tractorapp/src/core/constants/colors.dart';
+import '../farmer_machine_details/farmer_machine_details_screen.dart';
 
 class FarmerSearchScreen extends StatefulWidget {
   const FarmerSearchScreen({super.key});
@@ -96,7 +98,13 @@ class _FarmerSearchScreenState extends State<FarmerSearchScreen> {
                   separatorBuilder: (_, __) => SizedBox(height: 4.h),
                   itemBuilder: (context, index) {
                     final tractor = filteredTractors[index];
-                    return _TractorCard(tractor: tractor);
+                    return GestureDetector(
+                      onTap: () {
+                        context.pushNamed('farmer-machine-details',
+                            extra: tractor);
+                      },
+                      child: _TractorCard(tractor: tractor),
+                    );
                   },
                 ),
               ),
