@@ -274,9 +274,9 @@ class _FarmerMachineDetailsScreenState
         SizedBox(
           width: double.infinity,
           child: CustomButton(
-            color: AppColors.white,
-            textColor: AppColors.primaryGreen,
-            isOutline: false,
+            color: AppColors.primaryGreen,
+            textColor: AppColors.white,
+            isOutline: true,
             text: 'Back',
             onPressed: () {},
           ),
