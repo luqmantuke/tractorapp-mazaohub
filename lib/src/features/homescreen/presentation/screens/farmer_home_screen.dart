@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/farmer/farmer_bottom_nav.dart';
 import 'farmer_home_page/farmer_home_page.dart';
+import 'farmer_search/farmer_search_screen.dart';
 
 class FarmerHomeScreen extends StatefulWidget {
   const FarmerHomeScreen({super.key});
@@ -15,7 +16,7 @@ class _FarmerHomeScreenState extends State<FarmerHomeScreen> {
 
   late final List<Widget> _pages = [
     FarmerHomePage(searchController: _searchController),
-    const Center(child: Text('Add Widget')),
+    const FarmerSearchScreen(),
     const Center(child: Text('Menu Widget')),
     const Center(child: Text('Profile Widget')),
   ];
