@@ -1,0 +1,4164 @@
+{
+    "status": true,
+    "responseObj": {
+        "items": [
+            {
+                "id": 1,
+                "name": "Kanda ya Kaskazini",
+                "desrc": "Kanda ya Kaskazini",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null
+            },
+            {
+                "id": 31,
+                "name": "Kanda ya Kusini",
+                "desrc": "Kanda ya Kusini",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null
+            },
+            {
+                "id": 32,
+                "name": "Kanda ya Pwani",
+                "desrc": "Kanda ya Pwani",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null
+            },
+            {
+                "id": 77,
+                "name": "Zanzibar",
+                "desrc": "Zanzibar",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null
+            },
+            {
+                "id": 95,
+                "name": "Kanda ya Nyanda za Juu Kusini",
+                "desrc": "Kanda ya Nyanda za Juu Kusini",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null
+            },
+            {
+                "id": 127,
+                "name": "Kanda ya Kati",
+                "desrc": "Kanda ya Kati",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null
+            },
+            {
+                "id": 142,
+                "name": "Kanda ya Magharibi",
+                "desrc": "Kanda ya Magharibi",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null
+            },
+            {
+                "id": 150,
+                "name": "Kanda ya Ziwa",
+                "desrc": "Kanda ya Ziwa",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null
+            },
+            {
+                "id": 2,
+                "name": "Arusha",
+                "desrc": "Arusha",
+                "parentID": 1,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "antt",
+                "metadata": "ARS"
+            },
+            {
+                "id": 9,
+                "name": "Kilimanjaro",
+                "desrc": "Kilimanjaro",
+                "parentID": 1,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "tfhgcbv",
+                "metadata": "KLM"
+            },
+            {
+                "id": 16,
+                "name": "Manyara",
+                "desrc": "Manyara",
+                "parentID": 1,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "fthgv",
+                "metadata": "MNR"
+            },
+            {
+                "id": 22,
+                "name": "Tanga",
+                "desrc": "Tanga",
+                "parentID": 1,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "TNG"
+            },
+            {
+                "id": 3,
+                "name": "Arusha",
+                "desrc": "Arusha",
+                "parentID": 2,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "ARS",
+                "metadata": "01"
+            },
+            {
+                "id": 4,
+                "name": "Arumeru",
+                "desrc": "Arumeru",
+                "parentID": 2,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "ARM",
+                "metadata": "02"
+            },
+            {
+                "id": 5,
+                "name": "Ngorongoro",
+                "desrc": "Ngorongoro",
+                "parentID": 2,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NGN",
+                "metadata": "03"
+            },
+            {
+                "id": 6,
+                "name": "Longido",
+                "desrc": "Longido",
+                "parentID": 2,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "LNG",
+                "metadata": "04"
+            },
+            {
+                "id": 7,
+                "name": "Monduli",
+                "desrc": "Monduli",
+                "parentID": 2,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MND",
+                "metadata": "05"
+            },
+            {
+                "id": 8,
+                "name": "Karatu",
+                "desrc": "Karatu",
+                "parentID": 2,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KRT",
+                "metadata": "07"
+            },
+            {
+                "id": 10,
+                "name": "Siha",
+                "desrc": "Siha",
+                "parentID": 9,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SIH",
+                "metadata": "01"
+            },
+            {
+                "id": 11,
+                "name": "Moshi",
+                "desrc": "Moshi",
+                "parentID": 9,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MOS",
+                "metadata": "02"
+            },
+            {
+                "id": 12,
+                "name": "Mwanga",
+                "desrc": "Mwanga",
+                "parentID": 9,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MWN",
+                "metadata": "03"
+            },
+            {
+                "id": 13,
+                "name": "Rombo",
+                "desrc": "Rombo",
+                "parentID": 9,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "ROM",
+                "metadata": "04"
+            },
+            {
+                "id": 14,
+                "name": "Hai",
+                "desrc": "Hai",
+                "parentID": 9,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "HAI",
+                "metadata": "05"
+            },
+            {
+                "id": 15,
+                "name": "Same",
+                "desrc": "Same",
+                "parentID": 9,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SAM",
+                "metadata": "07"
+            },
+            {
+                "id": 17,
+                "name": "Babati",
+                "desrc": "Babati",
+                "parentID": 16,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BBT",
+                "metadata": "01"
+            },
+            {
+                "id": 18,
+                "name": "Mbulu",
+                "desrc": "Mbulu",
+                "parentID": 16,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MBL",
+                "metadata": "02"
+            },
+            {
+                "id": 19,
+                "name": "Hanang",
+                "desrc": "Hanang",
+                "parentID": 16,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "HNN",
+                "metadata": "03"
+            },
+            {
+                "id": 20,
+                "name": "Kiteto",
+                "desrc": "Kiteto",
+                "parentID": 16,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KTT",
+                "metadata": "04"
+            },
+            {
+                "id": 21,
+                "name": "Simanjiro",
+                "desrc": "Simanjiro",
+                "parentID": 16,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SMN",
+                "metadata": "06"
+            },
+            {
+                "id": 23,
+                "name": "Tanga",
+                "desrc": "Tanga",
+                "parentID": 22,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "TNG",
+                "metadata": "01"
+            },
+            {
+                "id": 24,
+                "name": "Muheza",
+                "desrc": "Muheza",
+                "parentID": 22,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MHZ",
+                "metadata": "02"
+            },
+            {
+                "id": 25,
+                "name": "Mkinga",
+                "desrc": "Mkinga",
+                "parentID": 22,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MKN",
+                "metadata": "03"
+            },
+            {
+                "id": 26,
+                "name": "Pangani",
+                "desrc": "Pangani",
+                "parentID": 22,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "PNG",
+                "metadata": "04"
+            },
+            {
+                "id": 27,
+                "name": "Handeni",
+                "desrc": "Handeni",
+                "parentID": 22,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "HND",
+                "metadata": "05"
+            },
+            {
+                "id": 28,
+                "name": "Korogwe",
+                "desrc": "Korogwe",
+                "parentID": 22,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KRW",
+                "metadata": "06"
+            },
+            {
+                "id": 29,
+                "name": "Kilindi",
+                "desrc": "Kilindi",
+                "parentID": 22,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KLN",
+                "metadata": "07"
+            },
+            {
+                "id": 30,
+                "name": "Lushoto",
+                "desrc": "Lushoto",
+                "parentID": 22,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "LSH",
+                "metadata": "09"
+            },
+            {
+                "id": 58,
+                "name": "Ruvuma",
+                "desrc": "Ruvuma",
+                "parentID": 31,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "RVM"
+            },
+            {
+                "id": 33,
+                "name": "Dar-es-Salaam",
+                "desrc": "Dar-es-Salaam",
+                "parentID": 32,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "DAR"
+            },
+            {
+                "id": 39,
+                "name": "Pwani",
+                "desrc": "Pwani",
+                "parentID": 32,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "PWN"
+            },
+            {
+                "id": 49,
+                "name": "Morogoro",
+                "desrc": "Morogoro",
+                "parentID": 32,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "MOR"
+            },
+            {
+                "id": 64,
+                "name": "Lindi",
+                "desrc": "Lindi",
+                "parentID": 32,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "LND"
+            },
+            {
+                "id": 71,
+                "name": "Mtwara",
+                "desrc": "Mtwara",
+                "parentID": 32,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "MTW"
+            },
+            {
+                "id": 34,
+                "name": "Kinondoni",
+                "desrc": "Kinondoni",
+                "parentID": 33,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KND",
+                "metadata": "02"
+            },
+            {
+                "id": 35,
+                "name": "Ilala",
+                "desrc": "Ilala",
+                "parentID": 33,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "ILL",
+                "metadata": "01"
+            },
+            {
+                "id": 36,
+                "name": "Temeke",
+                "desrc": "Temeke",
+                "parentID": 33,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "TMK",
+                "metadata": "03"
+            },
+            {
+                "id": 37,
+                "name": "Kigamboni",
+                "desrc": "Kigamboni",
+                "parentID": 33,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KGB",
+                "metadata": "04"
+            },
+            {
+                "id": 38,
+                "name": "Ubungo",
+                "desrc": "Ubungo",
+                "parentID": 33,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "UBN",
+                "metadata": "06"
+            },
+            {
+                "id": 40,
+                "name": "Bagamoyo",
+                "desrc": "Bagamoyo",
+                "parentID": 39,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BGY",
+                "metadata": "01"
+            },
+            {
+                "id": 41,
+                "name": "Mkuranga",
+                "desrc": "Mkuranga",
+                "parentID": 39,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MKR",
+                "metadata": "02"
+            },
+            {
+                "id": 42,
+                "name": "Rufiji",
+                "desrc": "Rufiji",
+                "parentID": 39,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "RFJ",
+                "metadata": "03"
+            },
+            {
+                "id": 43,
+                "name": "Mafia",
+                "desrc": "Mafia",
+                "parentID": 39,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MFA",
+                "metadata": "04"
+            },
+            {
+                "id": 44,
+                "name": "Kibaha",
+                "desrc": "Kibaha",
+                "parentID": 39,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KBH",
+                "metadata": "05"
+            },
+            {
+                "id": 45,
+                "name": "Kisarawe",
+                "desrc": "Kisarawe",
+                "parentID": 39,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KSR",
+                "metadata": "06"
+            },
+            {
+                "id": 46,
+                "name": "Kibiti",
+                "desrc": "Kibiti",
+                "parentID": 39,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KBT",
+                "metadata": "07"
+            },
+            {
+                "id": 48,
+                "name": "Vikindu",
+                "desrc": "Vikindu",
+                "parentID": 39,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "VKN",
+                "metadata": "10"
+            },
+            {
+                "id": 50,
+                "name": "Gairo",
+                "desrc": "Gairo",
+                "parentID": 49,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "GIR",
+                "metadata": "01"
+            },
+            {
+                "id": 51,
+                "name": "Kilombero",
+                "desrc": "Kilombero",
+                "parentID": 49,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KLR",
+                "metadata": "02"
+            },
+            {
+                "id": 52,
+                "name": "Mvomero",
+                "desrc": "Mvomero",
+                "parentID": 49,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MVM",
+                "metadata": "03"
+            },
+            {
+                "id": 53,
+                "name": "Morogoro",
+                "desrc": "Morogoro",
+                "parentID": 49,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MOR",
+                "metadata": "04"
+            },
+            {
+                "id": 54,
+                "name": "Ulanga",
+                "desrc": "Ulanga",
+                "parentID": 49,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "ULN",
+                "metadata": "05"
+            },
+            {
+                "id": 55,
+                "name": "Kilosa",
+                "desrc": "Kilosa",
+                "parentID": 49,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KLS",
+                "metadata": "06"
+            },
+            {
+                "id": 56,
+                "name": "Malinyi",
+                "desrc": "Malinyi",
+                "parentID": 49,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MLN",
+                "metadata": "07"
+            },
+            {
+                "id": 57,
+                "name": "Mikumi",
+                "desrc": "Mikumi",
+                "parentID": 49,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MKM",
+                "metadata": "09"
+            },
+            {
+                "id": 59,
+                "name": "Namtumbo",
+                "desrc": "Namtumbo",
+                "parentID": 58,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NMT",
+                "metadata": "01"
+            },
+            {
+                "id": 60,
+                "name": "Mbinga",
+                "desrc": "Mbinga",
+                "parentID": 58,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MBN",
+                "metadata": "02"
+            },
+            {
+                "id": 61,
+                "name": "Nyasa",
+                "desrc": "Nyasa",
+                "parentID": 58,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NYS",
+                "metadata": "03"
+            },
+            {
+                "id": 62,
+                "name": "Tunduru",
+                "desrc": "Tunduru",
+                "parentID": 58,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "TND",
+                "metadata": "04"
+            },
+            {
+                "id": 63,
+                "name": "Songea",
+                "desrc": "Songea",
+                "parentID": 58,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SNA",
+                "metadata": "06"
+            },
+            {
+                "id": 65,
+                "name": "Nachingwea",
+                "desrc": "Nachingwea",
+                "parentID": 64,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NCN",
+                "metadata": "01"
+            },
+            {
+                "id": 66,
+                "name": "Ruangwa",
+                "desrc": "Ruangwa",
+                "parentID": 64,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "RAN",
+                "metadata": "02"
+            },
+            {
+                "id": 67,
+                "name": "Liwale",
+                "desrc": "Liwale",
+                "parentID": 64,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "LWL",
+                "metadata": "03"
+            },
+            {
+                "id": 68,
+                "name": "Lindi",
+                "desrc": "Lindi",
+                "parentID": 64,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "LND",
+                "metadata": "04"
+            },
+            {
+                "id": 69,
+                "name": "Kilwa",
+                "desrc": "Kilwa",
+                "parentID": 64,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KLW",
+                "metadata": "05"
+            },
+            {
+                "id": 70,
+                "name": "Mtama",
+                "desrc": "Mtama",
+                "parentID": 64,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MTM",
+                "metadata": "07"
+            },
+            {
+                "id": 72,
+                "name": "Newala",
+                "desrc": "Newala",
+                "parentID": 71,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NWL",
+                "metadata": "01"
+            },
+            {
+                "id": 73,
+                "name": "Nanyumbu",
+                "desrc": "Nanyumbu",
+                "parentID": 71,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NNM",
+                "metadata": "02"
+            },
+            {
+                "id": 74,
+                "name": "Mtwara",
+                "desrc": "Mtwara",
+                "parentID": 71,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MTW",
+                "metadata": "03"
+            },
+            {
+                "id": 75,
+                "name": "Masasi",
+                "desrc": "Masasi",
+                "parentID": 71,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MAS",
+                "metadata": "04"
+            },
+            {
+                "id": 76,
+                "name": "Tandahimba",
+                "desrc": "Tandahimba",
+                "parentID": 71,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "TAH",
+                "metadata": "06"
+            },
+            {
+                "id": 78,
+                "name": "Kaskazini Pemba",
+                "desrc": "Kaskazini Pemba",
+                "parentID": 77,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "KAP",
+                "metadata": "KAP"
+            },
+            {
+                "id": 81,
+                "name": "Kaskazini Unguja",
+                "desrc": "Kaskazini Unguja",
+                "parentID": 77,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "KAU",
+                "metadata": "KAP"
+            },
+            {
+                "id": 84,
+                "name": "Kusini Pemba",
+                "desrc": "Kusini Pemba",
+                "parentID": 77,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "KUP",
+                "metadata": "KUP"
+            },
+            {
+                "id": 87,
+                "name": "Kusini Unguja",
+                "desrc": "Kusini Unguja",
+                "parentID": 77,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "KUU",
+                "metadata": "KUP"
+            },
+            {
+                "id": 90,
+                "name": "Mjini Magharibi",
+                "desrc": "Mjini Magharibi",
+                "parentID": 77,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "MJM",
+                "metadata": "MJM"
+            },
+            {
+                "id": 79,
+                "name": "Wete",
+                "desrc": "Wete",
+                "parentID": 78,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "WET",
+                "metadata": "01"
+            },
+            {
+                "id": 80,
+                "name": "Micheweni",
+                "desrc": "Micheweni",
+                "parentID": 78,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MIC",
+                "metadata": "03"
+            },
+            {
+                "id": 82,
+                "name": "Kaskazini A",
+                "desrc": "Kaskazini A",
+                "parentID": 81,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KSA",
+                "metadata": "01"
+            },
+            {
+                "id": 83,
+                "name": "Kaskazini B",
+                "desrc": "Kaskazini B",
+                "parentID": 81,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KSB",
+                "metadata": "03"
+            },
+            {
+                "id": 85,
+                "name": "Chakechake",
+                "desrc": "Chakechake",
+                "parentID": 84,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "CHK",
+                "metadata": "01"
+            },
+            {
+                "id": 86,
+                "name": "Mkoani",
+                "desrc": "Mkoani",
+                "parentID": 84,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MKN",
+                "metadata": "03"
+            },
+            {
+                "id": 88,
+                "name": "Kusini",
+                "desrc": "Kusini",
+                "parentID": 87,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KSN",
+                "metadata": "01"
+            },
+            {
+                "id": 89,
+                "name": "Kati",
+                "desrc": "Kati",
+                "parentID": 87,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KAT",
+                "metadata": "03"
+            },
+            {
+                "id": 91,
+                "name": null,
+                "desrc": null,
+                "parentID": 90,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NUL",
+                "metadata": "01"
+            },
+            {
+                "id": 92,
+                "name": "Magharibi Mjini",
+                "desrc": "Magharibi Mjini",
+                "parentID": 90,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MGM",
+                "metadata": "02"
+            },
+            {
+                "id": 93,
+                "name": "Magharibi A",
+                "desrc": "Magharibi A",
+                "parentID": 90,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MGA",
+                "metadata": "03"
+            },
+            {
+                "id": 94,
+                "name": "Magharibi B",
+                "desrc": "Magharibi B",
+                "parentID": 90,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MGB",
+                "metadata": "05"
+            },
+            {
+                "id": 96,
+                "name": "Rukwa",
+                "desrc": "Rukwa",
+                "parentID": 95,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "RKW"
+            },
+            {
+                "id": 100,
+                "name": "Katavi",
+                "desrc": "Katavi",
+                "parentID": 95,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "KTV"
+            },
+            {
+                "id": 104,
+                "name": "Mbeya",
+                "desrc": "Mbeya",
+                "parentID": 95,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "MBY"
+            },
+            {
+                "id": 111,
+                "name": "Njombe",
+                "desrc": "Njombe",
+                "parentID": 95,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "NJB"
+            },
+            {
+                "id": 116,
+                "name": "Iringa",
+                "desrc": "Iringa",
+                "parentID": 95,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "IRI"
+            },
+            {
+                "id": 122,
+                "name": "Songwe",
+                "desrc": "Songwe",
+                "parentID": 95,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "SOW"
+            },
+            {
+                "id": 97,
+                "name": "Sumbawanga",
+                "desrc": "Sumbawanga",
+                "parentID": 96,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SMB",
+                "metadata": "01"
+            },
+            {
+                "id": 98,
+                "name": "Nkasi",
+                "desrc": "Nkasi",
+                "parentID": 96,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NKS",
+                "metadata": "02"
+            },
+            {
+                "id": 99,
+                "name": "Kalambo",
+                "desrc": "Kalambo",
+                "parentID": 96,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KLM",
+                "metadata": "04"
+            },
+            {
+                "id": 101,
+                "name": "Mlele",
+                "desrc": "Mlele",
+                "parentID": 100,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MLL",
+                "metadata": "01"
+            },
+            {
+                "id": 102,
+                "name": "Mpanda",
+                "desrc": "Mpanda",
+                "parentID": 100,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MPN",
+                "metadata": "02"
+            },
+            {
+                "id": 103,
+                "name": "Tanganyika",
+                "desrc": "Tanganyika",
+                "parentID": 100,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "TNN",
+                "metadata": "04"
+            },
+            {
+                "id": 105,
+                "name": "Chunya",
+                "desrc": "Chunya",
+                "parentID": 104,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "CHN",
+                "metadata": "01"
+            },
+            {
+                "id": 106,
+                "name": "Kyela",
+                "desrc": "Kyela",
+                "parentID": 104,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KYL",
+                "metadata": "02"
+            },
+            {
+                "id": 107,
+                "name": "Mbeya",
+                "desrc": "Mbeya",
+                "parentID": 104,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MBY",
+                "metadata": "03"
+            },
+            {
+                "id": 108,
+                "name": "Rungwe",
+                "desrc": "Rungwe",
+                "parentID": 104,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "RNG",
+                "metadata": "04"
+            },
+            {
+                "id": 109,
+                "name": "Mbarali",
+                "desrc": "Mbarali",
+                "parentID": 104,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MBR",
+                "metadata": "05"
+            },
+            {
+                "id": 110,
+                "name": "Tukuyu",
+                "desrc": "Tukuyu",
+                "parentID": 104,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "TKY",
+                "metadata": "07"
+            },
+            {
+                "id": 112,
+                "name": "Njombe",
+                "desrc": "Njombe",
+                "parentID": 111,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NJB",
+                "metadata": "01"
+            },
+            {
+                "id": 113,
+                "name": "Ludewa",
+                "desrc": "Ludewa",
+                "parentID": 111,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "LDW",
+                "metadata": "02"
+            },
+            {
+                "id": 114,
+                "name": "Wanging\u00ef\u00be\u2019ombe",
+                "desrc": "Wanging\u00ef\u00be\u2019ombe",
+                "parentID": 111,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "WNG",
+                "metadata": "03"
+            },
+            {
+                "id": 115,
+                "name": "Makete",
+                "desrc": "Makete",
+                "parentID": 111,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MKT",
+                "metadata": "05"
+            },
+            {
+                "id": 117,
+                "name": "Mufindi",
+                "desrc": "Mufindi",
+                "parentID": 116,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MFD",
+                "metadata": "01"
+            },
+            {
+                "id": 118,
+                "name": "Kilolo",
+                "desrc": "Kilolo",
+                "parentID": 116,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KLL",
+                "metadata": "02"
+            },
+            {
+                "id": 119,
+                "name": "Iringa",
+                "desrc": "Iringa",
+                "parentID": 116,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "IRI",
+                "metadata": "03"
+            },
+            {
+                "id": 120,
+                "name": "Mafinga",
+                "desrc": "Mafinga",
+                "parentID": 116,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MFN",
+                "metadata": "04"
+            },
+            {
+                "id": 121,
+                "name": "Makambako",
+                "desrc": "Makambako",
+                "parentID": 116,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MKB",
+                "metadata": "06"
+            },
+            {
+                "id": 123,
+                "name": "Songwe",
+                "desrc": "Songwe",
+                "parentID": 122,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SNW",
+                "metadata": "01"
+            },
+            {
+                "id": 124,
+                "name": "Ileje",
+                "desrc": "Ileje",
+                "parentID": 122,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "ILJ",
+                "metadata": "02"
+            },
+            {
+                "id": 125,
+                "name": "Mbozi",
+                "desrc": "Mbozi",
+                "parentID": 122,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MBZ",
+                "metadata": "03"
+            },
+            {
+                "id": 126,
+                "name": "Momba",
+                "desrc": "Momba",
+                "parentID": 122,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MMB",
+                "metadata": "05"
+            },
+            {
+                "id": 128,
+                "name": "Dodoma",
+                "desrc": "Dodoma",
+                "parentID": 127,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "DOM"
+            },
+            {
+                "id": 136,
+                "name": "Singida",
+                "desrc": "Singida",
+                "parentID": 127,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "SNG"
+            },
+            {
+                "id": 155,
+                "name": "Tabora",
+                "desrc": "Tabora",
+                "parentID": 127,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "TBO"
+            },
+            {
+                "id": 129,
+                "name": "Chamwino",
+                "desrc": "Chamwino",
+                "parentID": 128,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "CMW",
+                "metadata": "01"
+            },
+            {
+                "id": 130,
+                "name": "Dodoma",
+                "desrc": "Dodoma",
+                "parentID": 128,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "DOM",
+                "metadata": "02"
+            },
+            {
+                "id": 131,
+                "name": "Chemba",
+                "desrc": "Chemba",
+                "parentID": 128,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "CHM",
+                "metadata": "03"
+            },
+            {
+                "id": 132,
+                "name": "Kondoa",
+                "desrc": "Kondoa",
+                "parentID": 128,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KNA",
+                "metadata": "04"
+            },
+            {
+                "id": 133,
+                "name": "Bahi",
+                "desrc": "Bahi",
+                "parentID": 128,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BAH",
+                "metadata": "05"
+            },
+            {
+                "id": 134,
+                "name": "Mpwapwa",
+                "desrc": "Mpwapwa",
+                "parentID": 128,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MPW",
+                "metadata": "06"
+            },
+            {
+                "id": 135,
+                "name": "Kongwa",
+                "desrc": "Kongwa",
+                "parentID": 128,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KNG",
+                "metadata": "08"
+            },
+            {
+                "id": 137,
+                "name": "Mkalama",
+                "desrc": "Mkalama",
+                "parentID": 136,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MKL",
+                "metadata": "01"
+            },
+            {
+                "id": 138,
+                "name": "Manyoni",
+                "desrc": "Manyoni",
+                "parentID": 136,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MNY",
+                "metadata": "02"
+            },
+            {
+                "id": 139,
+                "name": "Singida",
+                "desrc": "Singida",
+                "parentID": 136,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SNG",
+                "metadata": "03"
+            },
+            {
+                "id": 140,
+                "name": "Ikungi",
+                "desrc": "Ikungi",
+                "parentID": 136,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "IKN",
+                "metadata": "04"
+            },
+            {
+                "id": 141,
+                "name": "Iramba",
+                "desrc": "Iramba",
+                "parentID": 136,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "IRM",
+                "metadata": "06"
+            },
+            {
+                "id": 143,
+                "name": "Kigoma",
+                "desrc": "Kigoma",
+                "parentID": 142,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "KGM"
+            },
+            {
+                "id": 144,
+                "name": "Kigoma",
+                "desrc": "Kigoma",
+                "parentID": 143,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KGM",
+                "metadata": "01"
+            },
+            {
+                "id": 145,
+                "name": "Kasulu",
+                "desrc": "Kasulu",
+                "parentID": 143,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KSL",
+                "metadata": "02"
+            },
+            {
+                "id": 146,
+                "name": "Kakonko",
+                "desrc": "Kakonko",
+                "parentID": 143,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KKN",
+                "metadata": "03"
+            },
+            {
+                "id": 147,
+                "name": "Uvinza",
+                "desrc": "Uvinza",
+                "parentID": 143,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "UVN",
+                "metadata": "04"
+            },
+            {
+                "id": 148,
+                "name": "Buhigwe",
+                "desrc": "Buhigwe",
+                "parentID": 143,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BHG",
+                "metadata": "05"
+            },
+            {
+                "id": 149,
+                "name": "Kibondo",
+                "desrc": "Kibondo",
+                "parentID": 143,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KBN",
+                "metadata": "07"
+            },
+            {
+                "id": 151,
+                "name": "Shinyanga",
+                "desrc": "Shinyanga",
+                "parentID": 150,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "SYG"
+            },
+            {
+                "id": 163,
+                "name": "Mara",
+                "desrc": "Mara",
+                "parentID": 150,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "MAR"
+            },
+            {
+                "id": 170,
+                "name": "Mwanza",
+                "desrc": "Mwanza",
+                "parentID": 150,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "MWZ"
+            },
+            {
+                "id": 178,
+                "name": "Geita",
+                "desrc": "Geita",
+                "parentID": 150,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "GIT"
+            },
+            {
+                "id": 184,
+                "name": "Kagera",
+                "desrc": "Kagera",
+                "parentID": 150,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "KGR"
+            },
+            {
+                "id": 192,
+                "name": "Simiyu",
+                "desrc": "Simiyu",
+                "parentID": 150,
+                "levelID": "level2",
+                "levelName": "level2",
+                "divAbrev": "",
+                "metadata": "SMY"
+            },
+            {
+                "id": 152,
+                "name": "Kishapu",
+                "desrc": "Kishapu",
+                "parentID": 151,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KSH",
+                "metadata": "01"
+            },
+            {
+                "id": 153,
+                "name": "Kahama",
+                "desrc": "Kahama",
+                "parentID": 151,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KHM",
+                "metadata": "02"
+            },
+            {
+                "id": 154,
+                "name": "Shinyanga",
+                "desrc": "Shinyanga",
+                "parentID": 151,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SYG",
+                "metadata": "04"
+            },
+            {
+                "id": 156,
+                "name": "Nzega",
+                "desrc": "Nzega",
+                "parentID": 155,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NZG",
+                "metadata": "01"
+            },
+            {
+                "id": 157,
+                "name": "Kaliua",
+                "desrc": "Kaliua",
+                "parentID": 155,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KLU",
+                "metadata": "02"
+            },
+            {
+                "id": 158,
+                "name": "Igunga",
+                "desrc": "Igunga",
+                "parentID": 155,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "IGN",
+                "metadata": "03"
+            },
+            {
+                "id": 159,
+                "name": "Sikonge",
+                "desrc": "Sikonge",
+                "parentID": 155,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SKN",
+                "metadata": "04"
+            },
+            {
+                "id": 160,
+                "name": "Tabora",
+                "desrc": "Tabora",
+                "parentID": 155,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "TBR",
+                "metadata": "05"
+            },
+            {
+                "id": 161,
+                "name": "Urambo",
+                "desrc": "Urambo",
+                "parentID": 155,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "URM",
+                "metadata": "06"
+            },
+            {
+                "id": 162,
+                "name": "Uyui",
+                "desrc": "Uyui",
+                "parentID": 155,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "UYI",
+                "metadata": "08"
+            },
+            {
+                "id": 164,
+                "name": "Rorya",
+                "desrc": "Rorya",
+                "parentID": 163,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "RRY",
+                "metadata": "01"
+            },
+            {
+                "id": 165,
+                "name": "Serengeti",
+                "desrc": "Serengeti",
+                "parentID": 163,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SRN",
+                "metadata": "02"
+            },
+            {
+                "id": 166,
+                "name": "Bunda",
+                "desrc": "Bunda",
+                "parentID": 163,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BND",
+                "metadata": "03"
+            },
+            {
+                "id": 167,
+                "name": "Butiama",
+                "desrc": "Butiama",
+                "parentID": 163,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BTM",
+                "metadata": "04"
+            },
+            {
+                "id": 168,
+                "name": "Tarime",
+                "desrc": "Tarime",
+                "parentID": 163,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "TRM",
+                "metadata": "05"
+            },
+            {
+                "id": 169,
+                "name": "Musoma",
+                "desrc": "Musoma",
+                "parentID": 163,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MSM",
+                "metadata": "07"
+            },
+            {
+                "id": 171,
+                "name": "Ilemela",
+                "desrc": "Ilemela",
+                "parentID": 170,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "ILM",
+                "metadata": "01"
+            },
+            {
+                "id": 172,
+                "name": "Kwimba",
+                "desrc": "Kwimba",
+                "parentID": 170,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KWM",
+                "metadata": "02"
+            },
+            {
+                "id": 173,
+                "name": "Sengerema",
+                "desrc": "Sengerema",
+                "parentID": 170,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "SNR",
+                "metadata": "03"
+            },
+            {
+                "id": 174,
+                "name": "Nyamagana",
+                "desrc": "Nyamagana",
+                "parentID": 170,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NYM",
+                "metadata": "04"
+            },
+            {
+                "id": 175,
+                "name": "Magu",
+                "desrc": "Magu",
+                "parentID": 170,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MAG",
+                "metadata": "05"
+            },
+            {
+                "id": 176,
+                "name": "Ukerewe",
+                "desrc": "Ukerewe",
+                "parentID": 170,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "UKR",
+                "metadata": "06"
+            },
+            {
+                "id": 177,
+                "name": "Misungwi",
+                "desrc": "Misungwi",
+                "parentID": 170,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MSN",
+                "metadata": "08"
+            },
+            {
+                "id": 179,
+                "name": "Bukombe",
+                "desrc": "Bukombe",
+                "parentID": 178,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BKM",
+                "metadata": "01"
+            },
+            {
+                "id": 180,
+                "name": "Mbogwe",
+                "desrc": "Mbogwe",
+                "parentID": 178,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MBG",
+                "metadata": "02"
+            },
+            {
+                "id": 181,
+                "name": "Nyangwale",
+                "desrc": "Nyangwale",
+                "parentID": 178,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NYN",
+                "metadata": "03"
+            },
+            {
+                "id": 182,
+                "name": "Geita",
+                "desrc": "Geita",
+                "parentID": 178,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "GIT",
+                "metadata": "04"
+            },
+            {
+                "id": 183,
+                "name": "Chato",
+                "desrc": "Chato",
+                "parentID": 178,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "CHT",
+                "metadata": "06"
+            },
+            {
+                "id": 185,
+                "name": "Biharamulo",
+                "desrc": "Biharamulo",
+                "parentID": 184,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BHR",
+                "metadata": "01"
+            },
+            {
+                "id": 186,
+                "name": "Karagwe",
+                "desrc": "Karagwe",
+                "parentID": 184,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KRG",
+                "metadata": "02"
+            },
+            {
+                "id": 187,
+                "name": "Muleba",
+                "desrc": "Muleba",
+                "parentID": 184,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MLB",
+                "metadata": "03"
+            },
+            {
+                "id": 188,
+                "name": "Kyerwa",
+                "desrc": "Kyerwa",
+                "parentID": 184,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "KYR",
+                "metadata": "04"
+            },
+            {
+                "id": 189,
+                "name": "Bukoba",
+                "desrc": "Bukoba",
+                "parentID": 184,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BKB",
+                "metadata": "05"
+            },
+            {
+                "id": 190,
+                "name": "Ngara",
+                "desrc": "Ngara",
+                "parentID": 184,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "NGR",
+                "metadata": "06"
+            },
+            {
+                "id": 191,
+                "name": "Missenyi",
+                "desrc": "Missenyi",
+                "parentID": 184,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MSY",
+                "metadata": "08"
+            },
+            {
+                "id": 193,
+                "name": "Busega",
+                "desrc": "Busega",
+                "parentID": 192,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BSG",
+                "metadata": "01"
+            },
+            {
+                "id": 194,
+                "name": "Maswa",
+                "desrc": "Maswa",
+                "parentID": 192,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MSW",
+                "metadata": "02"
+            },
+            {
+                "id": 195,
+                "name": "Bariadi",
+                "desrc": "Bariadi",
+                "parentID": 192,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "BRD",
+                "metadata": "03"
+            },
+            {
+                "id": 196,
+                "name": "Meatu",
+                "desrc": "Meatu",
+                "parentID": 192,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "MAT",
+                "metadata": "04"
+            },
+            {
+                "id": 197,
+                "name": "Itilima",
+                "desrc": "Itilima",
+                "parentID": 192,
+                "levelID": "level3",
+                "levelName": "level3",
+                "divAbrev": "ITL",
+                "metadata": "06"
+            }
+        ],
+        "treezone": {
+            "1": {
+                "id": 1,
+                "name": "Kanda ya Kaskazini",
+                "desrc": "Kanda ya Kaskazini",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null,
+                "childs": {
+                    "2": {
+                        "id": 2,
+                        "name": "Arusha",
+                        "desrc": "Arusha",
+                        "parentID": 1,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "antt",
+                        "metadata": "ARS",
+                        "childs": {
+                            "3": {
+                                "id": 3,
+                                "name": "Arusha",
+                                "desrc": "Arusha",
+                                "parentID": 2,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "ARS",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "4": {
+                                "id": 4,
+                                "name": "Arumeru",
+                                "desrc": "Arumeru",
+                                "parentID": 2,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "ARM",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "5": {
+                                "id": 5,
+                                "name": "Ngorongoro",
+                                "desrc": "Ngorongoro",
+                                "parentID": 2,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NGN",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "6": {
+                                "id": 6,
+                                "name": "Longido",
+                                "desrc": "Longido",
+                                "parentID": 2,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "LNG",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "7": {
+                                "id": 7,
+                                "name": "Monduli",
+                                "desrc": "Monduli",
+                                "parentID": 2,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MND",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "8": {
+                                "id": 8,
+                                "name": "Karatu",
+                                "desrc": "Karatu",
+                                "parentID": 2,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KRT",
+                                "metadata": "07",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "9": {
+                        "id": 9,
+                        "name": "Kilimanjaro",
+                        "desrc": "Kilimanjaro",
+                        "parentID": 1,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "tfhgcbv",
+                        "metadata": "KLM",
+                        "childs": {
+                            "10": {
+                                "id": 10,
+                                "name": "Siha",
+                                "desrc": "Siha",
+                                "parentID": 9,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SIH",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "11": {
+                                "id": 11,
+                                "name": "Moshi",
+                                "desrc": "Moshi",
+                                "parentID": 9,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MOS",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "12": {
+                                "id": 12,
+                                "name": "Mwanga",
+                                "desrc": "Mwanga",
+                                "parentID": 9,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MWN",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "13": {
+                                "id": 13,
+                                "name": "Rombo",
+                                "desrc": "Rombo",
+                                "parentID": 9,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "ROM",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "14": {
+                                "id": 14,
+                                "name": "Hai",
+                                "desrc": "Hai",
+                                "parentID": 9,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "HAI",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "15": {
+                                "id": 15,
+                                "name": "Same",
+                                "desrc": "Same",
+                                "parentID": 9,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SAM",
+                                "metadata": "07",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "16": {
+                        "id": 16,
+                        "name": "Manyara",
+                        "desrc": "Manyara",
+                        "parentID": 1,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "fthgv",
+                        "metadata": "MNR",
+                        "childs": {
+                            "17": {
+                                "id": 17,
+                                "name": "Babati",
+                                "desrc": "Babati",
+                                "parentID": 16,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BBT",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "18": {
+                                "id": 18,
+                                "name": "Mbulu",
+                                "desrc": "Mbulu",
+                                "parentID": 16,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MBL",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "19": {
+                                "id": 19,
+                                "name": "Hanang",
+                                "desrc": "Hanang",
+                                "parentID": 16,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "HNN",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "20": {
+                                "id": 20,
+                                "name": "Kiteto",
+                                "desrc": "Kiteto",
+                                "parentID": 16,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KTT",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "21": {
+                                "id": 21,
+                                "name": "Simanjiro",
+                                "desrc": "Simanjiro",
+                                "parentID": 16,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SMN",
+                                "metadata": "06",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "22": {
+                        "id": 22,
+                        "name": "Tanga",
+                        "desrc": "Tanga",
+                        "parentID": 1,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "TNG",
+                        "childs": {
+                            "23": {
+                                "id": 23,
+                                "name": "Tanga",
+                                "desrc": "Tanga",
+                                "parentID": 22,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "TNG",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "24": {
+                                "id": 24,
+                                "name": "Muheza",
+                                "desrc": "Muheza",
+                                "parentID": 22,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MHZ",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "25": {
+                                "id": 25,
+                                "name": "Mkinga",
+                                "desrc": "Mkinga",
+                                "parentID": 22,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MKN",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "26": {
+                                "id": 26,
+                                "name": "Pangani",
+                                "desrc": "Pangani",
+                                "parentID": 22,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "PNG",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "27": {
+                                "id": 27,
+                                "name": "Handeni",
+                                "desrc": "Handeni",
+                                "parentID": 22,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "HND",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "28": {
+                                "id": 28,
+                                "name": "Korogwe",
+                                "desrc": "Korogwe",
+                                "parentID": 22,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KRW",
+                                "metadata": "06",
+                                "childs": []
+                            },
+                            "29": {
+                                "id": 29,
+                                "name": "Kilindi",
+                                "desrc": "Kilindi",
+                                "parentID": 22,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KLN",
+                                "metadata": "07",
+                                "childs": []
+                            },
+                            "30": {
+                                "id": 30,
+                                "name": "Lushoto",
+                                "desrc": "Lushoto",
+                                "parentID": 22,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "LSH",
+                                "metadata": "09",
+                                "childs": []
+                            }
+                        }
+                    }
+                }
+            },
+            "31": {
+                "id": 31,
+                "name": "Kanda ya Kusini",
+                "desrc": "Kanda ya Kusini",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null,
+                "childs": {
+                    "58": {
+                        "id": 58,
+                        "name": "Ruvuma",
+                        "desrc": "Ruvuma",
+                        "parentID": 31,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "RVM",
+                        "childs": {
+                            "59": {
+                                "id": 59,
+                                "name": "Namtumbo",
+                                "desrc": "Namtumbo",
+                                "parentID": 58,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NMT",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "60": {
+                                "id": 60,
+                                "name": "Mbinga",
+                                "desrc": "Mbinga",
+                                "parentID": 58,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MBN",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "61": {
+                                "id": 61,
+                                "name": "Nyasa",
+                                "desrc": "Nyasa",
+                                "parentID": 58,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NYS",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "62": {
+                                "id": 62,
+                                "name": "Tunduru",
+                                "desrc": "Tunduru",
+                                "parentID": 58,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "TND",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "63": {
+                                "id": 63,
+                                "name": "Songea",
+                                "desrc": "Songea",
+                                "parentID": 58,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SNA",
+                                "metadata": "06",
+                                "childs": []
+                            }
+                        }
+                    }
+                }
+            },
+            "32": {
+                "id": 32,
+                "name": "Kanda ya Pwani",
+                "desrc": "Kanda ya Pwani",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null,
+                "childs": {
+                    "33": {
+                        "id": 33,
+                        "name": "Dar-es-Salaam",
+                        "desrc": "Dar-es-Salaam",
+                        "parentID": 32,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "DAR",
+                        "childs": {
+                            "34": {
+                                "id": 34,
+                                "name": "Kinondoni",
+                                "desrc": "Kinondoni",
+                                "parentID": 33,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KND",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "35": {
+                                "id": 35,
+                                "name": "Ilala",
+                                "desrc": "Ilala",
+                                "parentID": 33,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "ILL",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "36": {
+                                "id": 36,
+                                "name": "Temeke",
+                                "desrc": "Temeke",
+                                "parentID": 33,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "TMK",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "37": {
+                                "id": 37,
+                                "name": "Kigamboni",
+                                "desrc": "Kigamboni",
+                                "parentID": 33,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KGB",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "38": {
+                                "id": 38,
+                                "name": "Ubungo",
+                                "desrc": "Ubungo",
+                                "parentID": 33,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "UBN",
+                                "metadata": "06",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "39": {
+                        "id": 39,
+                        "name": "Pwani",
+                        "desrc": "Pwani",
+                        "parentID": 32,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "PWN",
+                        "childs": {
+                            "40": {
+                                "id": 40,
+                                "name": "Bagamoyo",
+                                "desrc": "Bagamoyo",
+                                "parentID": 39,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BGY",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "41": {
+                                "id": 41,
+                                "name": "Mkuranga",
+                                "desrc": "Mkuranga",
+                                "parentID": 39,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MKR",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "42": {
+                                "id": 42,
+                                "name": "Rufiji",
+                                "desrc": "Rufiji",
+                                "parentID": 39,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "RFJ",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "43": {
+                                "id": 43,
+                                "name": "Mafia",
+                                "desrc": "Mafia",
+                                "parentID": 39,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MFA",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "44": {
+                                "id": 44,
+                                "name": "Kibaha",
+                                "desrc": "Kibaha",
+                                "parentID": 39,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KBH",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "45": {
+                                "id": 45,
+                                "name": "Kisarawe",
+                                "desrc": "Kisarawe",
+                                "parentID": 39,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KSR",
+                                "metadata": "06",
+                                "childs": []
+                            },
+                            "46": {
+                                "id": 46,
+                                "name": "Kibiti",
+                                "desrc": "Kibiti",
+                                "parentID": 39,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KBT",
+                                "metadata": "07",
+                                "childs": []
+                            },
+                            "48": {
+                                "id": 48,
+                                "name": "Vikindu",
+                                "desrc": "Vikindu",
+                                "parentID": 39,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "VKN",
+                                "metadata": "10",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "49": {
+                        "id": 49,
+                        "name": "Morogoro",
+                        "desrc": "Morogoro",
+                        "parentID": 32,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "MOR",
+                        "childs": {
+                            "50": {
+                                "id": 50,
+                                "name": "Gairo",
+                                "desrc": "Gairo",
+                                "parentID": 49,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "GIR",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "51": {
+                                "id": 51,
+                                "name": "Kilombero",
+                                "desrc": "Kilombero",
+                                "parentID": 49,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KLR",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "52": {
+                                "id": 52,
+                                "name": "Mvomero",
+                                "desrc": "Mvomero",
+                                "parentID": 49,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MVM",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "53": {
+                                "id": 53,
+                                "name": "Morogoro",
+                                "desrc": "Morogoro",
+                                "parentID": 49,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MOR",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "54": {
+                                "id": 54,
+                                "name": "Ulanga",
+                                "desrc": "Ulanga",
+                                "parentID": 49,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "ULN",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "55": {
+                                "id": 55,
+                                "name": "Kilosa",
+                                "desrc": "Kilosa",
+                                "parentID": 49,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KLS",
+                                "metadata": "06",
+                                "childs": []
+                            },
+                            "56": {
+                                "id": 56,
+                                "name": "Malinyi",
+                                "desrc": "Malinyi",
+                                "parentID": 49,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MLN",
+                                "metadata": "07",
+                                "childs": []
+                            },
+                            "57": {
+                                "id": 57,
+                                "name": "Mikumi",
+                                "desrc": "Mikumi",
+                                "parentID": 49,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MKM",
+                                "metadata": "09",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "64": {
+                        "id": 64,
+                        "name": "Lindi",
+                        "desrc": "Lindi",
+                        "parentID": 32,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "LND",
+                        "childs": {
+                            "65": {
+                                "id": 65,
+                                "name": "Nachingwea",
+                                "desrc": "Nachingwea",
+                                "parentID": 64,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NCN",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "66": {
+                                "id": 66,
+                                "name": "Ruangwa",
+                                "desrc": "Ruangwa",
+                                "parentID": 64,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "RAN",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "67": {
+                                "id": 67,
+                                "name": "Liwale",
+                                "desrc": "Liwale",
+                                "parentID": 64,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "LWL",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "68": {
+                                "id": 68,
+                                "name": "Lindi",
+                                "desrc": "Lindi",
+                                "parentID": 64,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "LND",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "69": {
+                                "id": 69,
+                                "name": "Kilwa",
+                                "desrc": "Kilwa",
+                                "parentID": 64,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KLW",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "70": {
+                                "id": 70,
+                                "name": "Mtama",
+                                "desrc": "Mtama",
+                                "parentID": 64,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MTM",
+                                "metadata": "07",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "71": {
+                        "id": 71,
+                        "name": "Mtwara",
+                        "desrc": "Mtwara",
+                        "parentID": 32,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "MTW",
+                        "childs": {
+                            "72": {
+                                "id": 72,
+                                "name": "Newala",
+                                "desrc": "Newala",
+                                "parentID": 71,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NWL",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "73": {
+                                "id": 73,
+                                "name": "Nanyumbu",
+                                "desrc": "Nanyumbu",
+                                "parentID": 71,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NNM",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "74": {
+                                "id": 74,
+                                "name": "Mtwara",
+                                "desrc": "Mtwara",
+                                "parentID": 71,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MTW",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "75": {
+                                "id": 75,
+                                "name": "Masasi",
+                                "desrc": "Masasi",
+                                "parentID": 71,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MAS",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "76": {
+                                "id": 76,
+                                "name": "Tandahimba",
+                                "desrc": "Tandahimba",
+                                "parentID": 71,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "TAH",
+                                "metadata": "06",
+                                "childs": []
+                            }
+                        }
+                    }
+                }
+            },
+            "77": {
+                "id": 77,
+                "name": "Zanzibar",
+                "desrc": "Zanzibar",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null,
+                "childs": {
+                    "78": {
+                        "id": 78,
+                        "name": "Kaskazini Pemba",
+                        "desrc": "Kaskazini Pemba",
+                        "parentID": 77,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "KAP",
+                        "metadata": "KAP",
+                        "childs": {
+                            "79": {
+                                "id": 79,
+                                "name": "Wete",
+                                "desrc": "Wete",
+                                "parentID": 78,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "WET",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "80": {
+                                "id": 80,
+                                "name": "Micheweni",
+                                "desrc": "Micheweni",
+                                "parentID": 78,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MIC",
+                                "metadata": "03",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "81": {
+                        "id": 81,
+                        "name": "Kaskazini Unguja",
+                        "desrc": "Kaskazini Unguja",
+                        "parentID": 77,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "KAU",
+                        "metadata": "KAP",
+                        "childs": {
+                            "82": {
+                                "id": 82,
+                                "name": "Kaskazini A",
+                                "desrc": "Kaskazini A",
+                                "parentID": 81,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KSA",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "83": {
+                                "id": 83,
+                                "name": "Kaskazini B",
+                                "desrc": "Kaskazini B",
+                                "parentID": 81,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KSB",
+                                "metadata": "03",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "84": {
+                        "id": 84,
+                        "name": "Kusini Pemba",
+                        "desrc": "Kusini Pemba",
+                        "parentID": 77,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "KUP",
+                        "metadata": "KUP",
+                        "childs": {
+                            "85": {
+                                "id": 85,
+                                "name": "Chakechake",
+                                "desrc": "Chakechake",
+                                "parentID": 84,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "CHK",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "86": {
+                                "id": 86,
+                                "name": "Mkoani",
+                                "desrc": "Mkoani",
+                                "parentID": 84,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MKN",
+                                "metadata": "03",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "87": {
+                        "id": 87,
+                        "name": "Kusini Unguja",
+                        "desrc": "Kusini Unguja",
+                        "parentID": 77,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "KUU",
+                        "metadata": "KUP",
+                        "childs": {
+                            "88": {
+                                "id": 88,
+                                "name": "Kusini",
+                                "desrc": "Kusini",
+                                "parentID": 87,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KSN",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "89": {
+                                "id": 89,
+                                "name": "Kati",
+                                "desrc": "Kati",
+                                "parentID": 87,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KAT",
+                                "metadata": "03",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "90": {
+                        "id": 90,
+                        "name": "Mjini Magharibi",
+                        "desrc": "Mjini Magharibi",
+                        "parentID": 77,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "MJM",
+                        "metadata": "MJM",
+                        "childs": {
+                            "91": {
+                                "id": 91,
+                                "name": null,
+                                "desrc": null,
+                                "parentID": 90,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NUL",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "92": {
+                                "id": 92,
+                                "name": "Magharibi Mjini",
+                                "desrc": "Magharibi Mjini",
+                                "parentID": 90,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MGM",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "93": {
+                                "id": 93,
+                                "name": "Magharibi A",
+                                "desrc": "Magharibi A",
+                                "parentID": 90,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MGA",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "94": {
+                                "id": 94,
+                                "name": "Magharibi B",
+                                "desrc": "Magharibi B",
+                                "parentID": 90,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MGB",
+                                "metadata": "05",
+                                "childs": []
+                            }
+                        }
+                    }
+                }
+            },
+            "95": {
+                "id": 95,
+                "name": "Kanda ya Nyanda za Juu Kusini",
+                "desrc": "Kanda ya Nyanda za Juu Kusini",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null,
+                "childs": {
+                    "96": {
+                        "id": 96,
+                        "name": "Rukwa",
+                        "desrc": "Rukwa",
+                        "parentID": 95,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "RKW",
+                        "childs": {
+                            "97": {
+                                "id": 97,
+                                "name": "Sumbawanga",
+                                "desrc": "Sumbawanga",
+                                "parentID": 96,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SMB",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "98": {
+                                "id": 98,
+                                "name": "Nkasi",
+                                "desrc": "Nkasi",
+                                "parentID": 96,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NKS",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "99": {
+                                "id": 99,
+                                "name": "Kalambo",
+                                "desrc": "Kalambo",
+                                "parentID": 96,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KLM",
+                                "metadata": "04",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "100": {
+                        "id": 100,
+                        "name": "Katavi",
+                        "desrc": "Katavi",
+                        "parentID": 95,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "KTV",
+                        "childs": {
+                            "101": {
+                                "id": 101,
+                                "name": "Mlele",
+                                "desrc": "Mlele",
+                                "parentID": 100,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MLL",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "102": {
+                                "id": 102,
+                                "name": "Mpanda",
+                                "desrc": "Mpanda",
+                                "parentID": 100,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MPN",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "103": {
+                                "id": 103,
+                                "name": "Tanganyika",
+                                "desrc": "Tanganyika",
+                                "parentID": 100,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "TNN",
+                                "metadata": "04",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "104": {
+                        "id": 104,
+                        "name": "Mbeya",
+                        "desrc": "Mbeya",
+                        "parentID": 95,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "MBY",
+                        "childs": {
+                            "105": {
+                                "id": 105,
+                                "name": "Chunya",
+                                "desrc": "Chunya",
+                                "parentID": 104,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "CHN",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "106": {
+                                "id": 106,
+                                "name": "Kyela",
+                                "desrc": "Kyela",
+                                "parentID": 104,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KYL",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "107": {
+                                "id": 107,
+                                "name": "Mbeya",
+                                "desrc": "Mbeya",
+                                "parentID": 104,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MBY",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "108": {
+                                "id": 108,
+                                "name": "Rungwe",
+                                "desrc": "Rungwe",
+                                "parentID": 104,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "RNG",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "109": {
+                                "id": 109,
+                                "name": "Mbarali",
+                                "desrc": "Mbarali",
+                                "parentID": 104,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MBR",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "110": {
+                                "id": 110,
+                                "name": "Tukuyu",
+                                "desrc": "Tukuyu",
+                                "parentID": 104,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "TKY",
+                                "metadata": "07",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "111": {
+                        "id": 111,
+                        "name": "Njombe",
+                        "desrc": "Njombe",
+                        "parentID": 95,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "NJB",
+                        "childs": {
+                            "112": {
+                                "id": 112,
+                                "name": "Njombe",
+                                "desrc": "Njombe",
+                                "parentID": 111,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NJB",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "113": {
+                                "id": 113,
+                                "name": "Ludewa",
+                                "desrc": "Ludewa",
+                                "parentID": 111,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "LDW",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "114": {
+                                "id": 114,
+                                "name": "Wanging\u00ef\u00be\u2019ombe",
+                                "desrc": "Wanging\u00ef\u00be\u2019ombe",
+                                "parentID": 111,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "WNG",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "115": {
+                                "id": 115,
+                                "name": "Makete",
+                                "desrc": "Makete",
+                                "parentID": 111,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MKT",
+                                "metadata": "05",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "116": {
+                        "id": 116,
+                        "name": "Iringa",
+                        "desrc": "Iringa",
+                        "parentID": 95,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "IRI",
+                        "childs": {
+                            "117": {
+                                "id": 117,
+                                "name": "Mufindi",
+                                "desrc": "Mufindi",
+                                "parentID": 116,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MFD",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "118": {
+                                "id": 118,
+                                "name": "Kilolo",
+                                "desrc": "Kilolo",
+                                "parentID": 116,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KLL",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "119": {
+                                "id": 119,
+                                "name": "Iringa",
+                                "desrc": "Iringa",
+                                "parentID": 116,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "IRI",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "120": {
+                                "id": 120,
+                                "name": "Mafinga",
+                                "desrc": "Mafinga",
+                                "parentID": 116,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MFN",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "121": {
+                                "id": 121,
+                                "name": "Makambako",
+                                "desrc": "Makambako",
+                                "parentID": 116,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MKB",
+                                "metadata": "06",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "122": {
+                        "id": 122,
+                        "name": "Songwe",
+                        "desrc": "Songwe",
+                        "parentID": 95,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "SOW",
+                        "childs": {
+                            "123": {
+                                "id": 123,
+                                "name": "Songwe",
+                                "desrc": "Songwe",
+                                "parentID": 122,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SNW",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "124": {
+                                "id": 124,
+                                "name": "Ileje",
+                                "desrc": "Ileje",
+                                "parentID": 122,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "ILJ",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "125": {
+                                "id": 125,
+                                "name": "Mbozi",
+                                "desrc": "Mbozi",
+                                "parentID": 122,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MBZ",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "126": {
+                                "id": 126,
+                                "name": "Momba",
+                                "desrc": "Momba",
+                                "parentID": 122,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MMB",
+                                "metadata": "05",
+                                "childs": []
+                            }
+                        }
+                    }
+                }
+            },
+            "127": {
+                "id": 127,
+                "name": "Kanda ya Kati",
+                "desrc": "Kanda ya Kati",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null,
+                "childs": {
+                    "128": {
+                        "id": 128,
+                        "name": "Dodoma",
+                        "desrc": "Dodoma",
+                        "parentID": 127,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "DOM",
+                        "childs": {
+                            "129": {
+                                "id": 129,
+                                "name": "Chamwino",
+                                "desrc": "Chamwino",
+                                "parentID": 128,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "CMW",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "130": {
+                                "id": 130,
+                                "name": "Dodoma",
+                                "desrc": "Dodoma",
+                                "parentID": 128,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "DOM",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "131": {
+                                "id": 131,
+                                "name": "Chemba",
+                                "desrc": "Chemba",
+                                "parentID": 128,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "CHM",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "132": {
+                                "id": 132,
+                                "name": "Kondoa",
+                                "desrc": "Kondoa",
+                                "parentID": 128,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KNA",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "133": {
+                                "id": 133,
+                                "name": "Bahi",
+                                "desrc": "Bahi",
+                                "parentID": 128,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BAH",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "134": {
+                                "id": 134,
+                                "name": "Mpwapwa",
+                                "desrc": "Mpwapwa",
+                                "parentID": 128,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MPW",
+                                "metadata": "06",
+                                "childs": []
+                            },
+                            "135": {
+                                "id": 135,
+                                "name": "Kongwa",
+                                "desrc": "Kongwa",
+                                "parentID": 128,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KNG",
+                                "metadata": "08",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "136": {
+                        "id": 136,
+                        "name": "Singida",
+                        "desrc": "Singida",
+                        "parentID": 127,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "SNG",
+                        "childs": {
+                            "137": {
+                                "id": 137,
+                                "name": "Mkalama",
+                                "desrc": "Mkalama",
+                                "parentID": 136,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MKL",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "138": {
+                                "id": 138,
+                                "name": "Manyoni",
+                                "desrc": "Manyoni",
+                                "parentID": 136,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MNY",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "139": {
+                                "id": 139,
+                                "name": "Singida",
+                                "desrc": "Singida",
+                                "parentID": 136,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SNG",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "140": {
+                                "id": 140,
+                                "name": "Ikungi",
+                                "desrc": "Ikungi",
+                                "parentID": 136,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "IKN",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "141": {
+                                "id": 141,
+                                "name": "Iramba",
+                                "desrc": "Iramba",
+                                "parentID": 136,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "IRM",
+                                "metadata": "06",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "155": {
+                        "id": 155,
+                        "name": "Tabora",
+                        "desrc": "Tabora",
+                        "parentID": 127,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "TBO",
+                        "childs": {
+                            "156": {
+                                "id": 156,
+                                "name": "Nzega",
+                                "desrc": "Nzega",
+                                "parentID": 155,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NZG",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "157": {
+                                "id": 157,
+                                "name": "Kaliua",
+                                "desrc": "Kaliua",
+                                "parentID": 155,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KLU",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "158": {
+                                "id": 158,
+                                "name": "Igunga",
+                                "desrc": "Igunga",
+                                "parentID": 155,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "IGN",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "159": {
+                                "id": 159,
+                                "name": "Sikonge",
+                                "desrc": "Sikonge",
+                                "parentID": 155,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SKN",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "160": {
+                                "id": 160,
+                                "name": "Tabora",
+                                "desrc": "Tabora",
+                                "parentID": 155,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "TBR",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "161": {
+                                "id": 161,
+                                "name": "Urambo",
+                                "desrc": "Urambo",
+                                "parentID": 155,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "URM",
+                                "metadata": "06",
+                                "childs": []
+                            },
+                            "162": {
+                                "id": 162,
+                                "name": "Uyui",
+                                "desrc": "Uyui",
+                                "parentID": 155,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "UYI",
+                                "metadata": "08",
+                                "childs": []
+                            }
+                        }
+                    }
+                }
+            },
+            "142": {
+                "id": 142,
+                "name": "Kanda ya Magharibi",
+                "desrc": "Kanda ya Magharibi",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null,
+                "childs": {
+                    "143": {
+                        "id": 143,
+                        "name": "Kigoma",
+                        "desrc": "Kigoma",
+                        "parentID": 142,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "KGM",
+                        "childs": {
+                            "144": {
+                                "id": 144,
+                                "name": "Kigoma",
+                                "desrc": "Kigoma",
+                                "parentID": 143,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KGM",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "145": {
+                                "id": 145,
+                                "name": "Kasulu",
+                                "desrc": "Kasulu",
+                                "parentID": 143,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KSL",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "146": {
+                                "id": 146,
+                                "name": "Kakonko",
+                                "desrc": "Kakonko",
+                                "parentID": 143,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KKN",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "147": {
+                                "id": 147,
+                                "name": "Uvinza",
+                                "desrc": "Uvinza",
+                                "parentID": 143,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "UVN",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "148": {
+                                "id": 148,
+                                "name": "Buhigwe",
+                                "desrc": "Buhigwe",
+                                "parentID": 143,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BHG",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "149": {
+                                "id": 149,
+                                "name": "Kibondo",
+                                "desrc": "Kibondo",
+                                "parentID": 143,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KBN",
+                                "metadata": "07",
+                                "childs": []
+                            }
+                        }
+                    }
+                }
+            },
+            "150": {
+                "id": 150,
+                "name": "Kanda ya Ziwa",
+                "desrc": "Kanda ya Ziwa",
+                "parentID": 0,
+                "levelID": "level1",
+                "levelName": "level1",
+                "divAbrev": "",
+                "metadata": null,
+                "childs": {
+                    "151": {
+                        "id": 151,
+                        "name": "Shinyanga",
+                        "desrc": "Shinyanga",
+                        "parentID": 150,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "SYG",
+                        "childs": {
+                            "152": {
+                                "id": 152,
+                                "name": "Kishapu",
+                                "desrc": "Kishapu",
+                                "parentID": 151,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KSH",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "153": {
+                                "id": 153,
+                                "name": "Kahama",
+                                "desrc": "Kahama",
+                                "parentID": 151,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KHM",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "154": {
+                                "id": 154,
+                                "name": "Shinyanga",
+                                "desrc": "Shinyanga",
+                                "parentID": 151,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SYG",
+                                "metadata": "04",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "163": {
+                        "id": 163,
+                        "name": "Mara",
+                        "desrc": "Mara",
+                        "parentID": 150,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "MAR",
+                        "childs": {
+                            "164": {
+                                "id": 164,
+                                "name": "Rorya",
+                                "desrc": "Rorya",
+                                "parentID": 163,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "RRY",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "165": {
+                                "id": 165,
+                                "name": "Serengeti",
+                                "desrc": "Serengeti",
+                                "parentID": 163,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SRN",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "166": {
+                                "id": 166,
+                                "name": "Bunda",
+                                "desrc": "Bunda",
+                                "parentID": 163,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BND",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "167": {
+                                "id": 167,
+                                "name": "Butiama",
+                                "desrc": "Butiama",
+                                "parentID": 163,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BTM",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "168": {
+                                "id": 168,
+                                "name": "Tarime",
+                                "desrc": "Tarime",
+                                "parentID": 163,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "TRM",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "169": {
+                                "id": 169,
+                                "name": "Musoma",
+                                "desrc": "Musoma",
+                                "parentID": 163,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MSM",
+                                "metadata": "07",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "170": {
+                        "id": 170,
+                        "name": "Mwanza",
+                        "desrc": "Mwanza",
+                        "parentID": 150,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "MWZ",
+                        "childs": {
+                            "171": {
+                                "id": 171,
+                                "name": "Ilemela",
+                                "desrc": "Ilemela",
+                                "parentID": 170,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "ILM",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "172": {
+                                "id": 172,
+                                "name": "Kwimba",
+                                "desrc": "Kwimba",
+                                "parentID": 170,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KWM",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "173": {
+                                "id": 173,
+                                "name": "Sengerema",
+                                "desrc": "Sengerema",
+                                "parentID": 170,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "SNR",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "174": {
+                                "id": 174,
+                                "name": "Nyamagana",
+                                "desrc": "Nyamagana",
+                                "parentID": 170,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NYM",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "175": {
+                                "id": 175,
+                                "name": "Magu",
+                                "desrc": "Magu",
+                                "parentID": 170,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MAG",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "176": {
+                                "id": 176,
+                                "name": "Ukerewe",
+                                "desrc": "Ukerewe",
+                                "parentID": 170,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "UKR",
+                                "metadata": "06",
+                                "childs": []
+                            },
+                            "177": {
+                                "id": 177,
+                                "name": "Misungwi",
+                                "desrc": "Misungwi",
+                                "parentID": 170,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MSN",
+                                "metadata": "08",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "178": {
+                        "id": 178,
+                        "name": "Geita",
+                        "desrc": "Geita",
+                        "parentID": 150,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "GIT",
+                        "childs": {
+                            "179": {
+                                "id": 179,
+                                "name": "Bukombe",
+                                "desrc": "Bukombe",
+                                "parentID": 178,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BKM",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "180": {
+                                "id": 180,
+                                "name": "Mbogwe",
+                                "desrc": "Mbogwe",
+                                "parentID": 178,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MBG",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "181": {
+                                "id": 181,
+                                "name": "Nyangwale",
+                                "desrc": "Nyangwale",
+                                "parentID": 178,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NYN",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "182": {
+                                "id": 182,
+                                "name": "Geita",
+                                "desrc": "Geita",
+                                "parentID": 178,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "GIT",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "183": {
+                                "id": 183,
+                                "name": "Chato",
+                                "desrc": "Chato",
+                                "parentID": 178,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "CHT",
+                                "metadata": "06",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "184": {
+                        "id": 184,
+                        "name": "Kagera",
+                        "desrc": "Kagera",
+                        "parentID": 150,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "KGR",
+                        "childs": {
+                            "185": {
+                                "id": 185,
+                                "name": "Biharamulo",
+                                "desrc": "Biharamulo",
+                                "parentID": 184,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BHR",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "186": {
+                                "id": 186,
+                                "name": "Karagwe",
+                                "desrc": "Karagwe",
+                                "parentID": 184,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KRG",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "187": {
+                                "id": 187,
+                                "name": "Muleba",
+                                "desrc": "Muleba",
+                                "parentID": 184,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MLB",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "188": {
+                                "id": 188,
+                                "name": "Kyerwa",
+                                "desrc": "Kyerwa",
+                                "parentID": 184,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "KYR",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "189": {
+                                "id": 189,
+                                "name": "Bukoba",
+                                "desrc": "Bukoba",
+                                "parentID": 184,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BKB",
+                                "metadata": "05",
+                                "childs": []
+                            },
+                            "190": {
+                                "id": 190,
+                                "name": "Ngara",
+                                "desrc": "Ngara",
+                                "parentID": 184,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "NGR",
+                                "metadata": "06",
+                                "childs": []
+                            },
+                            "191": {
+                                "id": 191,
+                                "name": "Missenyi",
+                                "desrc": "Missenyi",
+                                "parentID": 184,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MSY",
+                                "metadata": "08",
+                                "childs": []
+                            }
+                        }
+                    },
+                    "192": {
+                        "id": 192,
+                        "name": "Simiyu",
+                        "desrc": "Simiyu",
+                        "parentID": 150,
+                        "levelID": "level2",
+                        "levelName": "level2",
+                        "divAbrev": "",
+                        "metadata": "SMY",
+                        "childs": {
+                            "193": {
+                                "id": 193,
+                                "name": "Busega",
+                                "desrc": "Busega",
+                                "parentID": 192,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BSG",
+                                "metadata": "01",
+                                "childs": []
+                            },
+                            "194": {
+                                "id": 194,
+                                "name": "Maswa",
+                                "desrc": "Maswa",
+                                "parentID": 192,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MSW",
+                                "metadata": "02",
+                                "childs": []
+                            },
+                            "195": {
+                                "id": 195,
+                                "name": "Bariadi",
+                                "desrc": "Bariadi",
+                                "parentID": 192,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "BRD",
+                                "metadata": "03",
+                                "childs": []
+                            },
+                            "196": {
+                                "id": 196,
+                                "name": "Meatu",
+                                "desrc": "Meatu",
+                                "parentID": 192,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "MAT",
+                                "metadata": "04",
+                                "childs": []
+                            },
+                            "197": {
+                                "id": 197,
+                                "name": "Itilima",
+                                "desrc": "Itilima",
+                                "parentID": 192,
+                                "levelID": "level3",
+                                "levelName": "level3",
+                                "divAbrev": "ITL",
+                                "metadata": "06",
+                                "childs": []
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
