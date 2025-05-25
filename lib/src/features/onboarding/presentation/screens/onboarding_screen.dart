@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
+import 'package:go_router/go_router.dart';
+import 'package:tractorapp/src/shared/widgets/buttons/custombuttons.dart';
 import '../../data/models/onboarding_page.dart';
 import '../widgets/onboarding_image.dart';
 
@@ -42,12 +45,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       _controller.nextPage(
           duration: const Duration(milliseconds: 300), curve: Curves.easeInOut);
     } else {
-      // TODO: Navigate to login or home
+      context.goNamed('login');
     }
   }
 
   void _skip() {
-    // TODO: Navigate to login or home
+    context.goNamed('login');
   }
 
   @override
@@ -66,11 +69,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 children: [
                   OnboardingImage(imageUrl: page.imageUrl),
                   Container(
-                    color: Colors.black.withValues(alpha: 0.4),
+                    color: Colors.black.withOpacity(0.4),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 24.0, vertical: 48.0),
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 6.w, vertical: 6.h),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.end,
                       crossAxisAlignment: CrossAxisAlignment.center,
@@ -83,27 +86,28 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                               ?.copyWith(
                                 color: Colors.orange,
                                 fontWeight: FontWeight.bold,
+                                fontSize: 22.sp,
                               ),
                           textAlign: TextAlign.center,
                         ),
-                        const SizedBox(height: 16),
+                        SizedBox(height: 2.h),
                         Text(
                           page.description,
                           style: Theme.of(context)
                               .textTheme
                               .bodyMedium
-                              ?.copyWith(color: Colors.white),
+                              ?.copyWith(color: Colors.white, fontSize: 16.sp),
                           textAlign: TextAlign.center,
                         ),
-                        const SizedBox(height: 32),
+                        SizedBox(height: 4.h),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: List.generate(
                             onboardingPages.length,
                             (dotIndex) => Container(
-                              margin: const EdgeInsets.symmetric(horizontal: 4),
-                              width: 24,
-                              height: 4,
+                              margin: EdgeInsets.symmetric(horizontal: 1.w),
+                              width: 6.w,
+                              height: 0.7.h,
                               decoration: BoxDecoration(
                                 color: _currentPage == dotIndex
                                     ? Colors.orange
@@ -113,25 +117,21 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             ),
                           ),
                         ),
-                        const SizedBox(height: 32),
-                        ElevatedButton(
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.orange,
-                            minimumSize: const Size(double.infinity, 56),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(32),
-                            ),
-                          ),
-                          onPressed: _nextPage,
-                          child: Text(_currentPage == onboardingPages.length - 1
+                        SizedBox(height: 4.h),
+                        CustomButton(
+                          text: _currentPage == onboardingPages.length - 1
                               ? 'Get Started'
-                              : 'Next'),
+                              : 'Next',
+                          onPressed: _nextPage,
+                          color: Colors.orange,
+                          textColor: Colors.white,
                         ),
-                        const SizedBox(height: 16),
+                        SizedBox(height: 2.h),
                         TextButton(
                           onPressed: _skip,
-                          child: const Text('Skip',
-                              style: TextStyle(color: Colors.white)),
+                          child: Text('Skip',
+                              style: TextStyle(
+                                  color: Colors.white, fontSize: 16.sp)),
                         ),
                       ],
                     ),
@@ -140,14 +140,14 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               );
             },
           ),
-          const Positioned(
-            top: 48,
-            left: 24,
+          Positioned(
+            top: 6.h,
+            left: 6.w,
             child: Text(
               '9:09',
               style: TextStyle(
                   color: Colors.white,
-                  fontSize: 20,
+                  fontSize: 18.sp,
                   fontWeight: FontWeight.w400),
             ),
           ),
