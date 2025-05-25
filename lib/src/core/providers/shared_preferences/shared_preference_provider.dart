@@ -16,7 +16,7 @@ final isLoggedInPreferenceProvider = Provider<bool>((ref) {
 
 final userNamePreferenceProvider = Provider<String>((ref) {
   final sharedPreferences = ref.watch(sharedPreferenceInstanceProvider);
-  final userName = sharedPreferences.getString('username') ?? '';
+  final userName = sharedPreferences.getString('user_name') ?? '';
   return userName;
 });
 

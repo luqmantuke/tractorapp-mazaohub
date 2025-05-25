@@ -1,22 +1,56 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:tractorapp/src/core/constants/colors.dart';
 import 'package:tractorapp/src/core/constants/images/images.dart';
+import 'package:tractorapp/src/features/auth/presentation/providers/auth_provider.dart';
 import 'package:tractorapp/src/shared/widgets/buttons/custombuttons.dart';
+import 'package:tractorapp/src/shared/widgets/errors/error_widget.dart';
+import '../../data/auth_data.dart';
+import 'package:go_router/go_router.dart';
 
-class LoginScreen extends StatefulWidget {
+class LoginScreen extends ConsumerStatefulWidget {
   const LoginScreen({super.key});
 
   @override
-  State<LoginScreen> createState() => _LoginScreenState();
+  ConsumerState<LoginScreen> createState() => _LoginScreenState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _LoginScreenState extends ConsumerState<LoginScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
 
+  void _handleLogin() {
+    ref.read(authProvider.notifier).login(
+          _emailController.text.trim(),
+          _passwordController.text.trim(),
+        );
+  }
+
+  void _handleRetry() {
+    ref.read(authProvider.notifier).reset();
+  }
+
   @override
   Widget build(BuildContext context) {
+    final authAsync = ref.watch(authProvider);
+
+    ref.listen<AsyncValue<AuthState>>(authProvider, (prev, next) {
+      next.whenOrNull(
+        data: (state) {
+          if (state.status == AuthStatus.success) {
+            if (state.userType == UserType.mechanicalOwner) {
+              context.go('/mechanical-owner-home');
+            } else if (state.userType == UserType.farmer) {
+              context.go('/farmer-home');
+            } else if (state.userType == UserType.agent) {
+              context.go('/agent-home');
+            }
+          }
+        },
+      );
+    });
+
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
@@ -51,6 +85,29 @@ class _LoginScreenState extends State<LoginScreen> {
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 4.h),
+                authAsync.when(
+                  loading: () => Padding(
+                    padding: EdgeInsets.symmetric(vertical: 2.h),
+                    child: const CircularProgressIndicator(),
+                  ),
+                  error: (err, stack) => Padding(
+                    padding: EdgeInsets.only(bottom: 2.h),
+                    child: InlineErrorWidget(
+                      message: err.toString(),
+                      onRetry: _handleRetry,
+                    ),
+                  ),
+                  data: (authState) => authState.status == AuthStatus.error &&
+                          authState.error != null
+                      ? Padding(
+                          padding: EdgeInsets.only(bottom: 2.h),
+                          child: InlineErrorWidget(
+                            message: authState.error!,
+                            onRetry: _handleRetry,
+                          ),
+                        )
+                      : const SizedBox.shrink(),
+                ),
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
@@ -121,11 +178,14 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
                 SizedBox(height: 4.h),
-                CustomButton(
-                  text: 'Log in',
-                  onPressed: () {},
-                  color: AppColors.primaryGreen,
-                  textColor: Colors.white,
+                authAsync.maybeWhen(
+                  loading: () => const SizedBox.shrink(),
+                  orElse: () => CustomButton(
+                    text: 'Log in',
+                    onPressed: _handleLogin,
+                    color: AppColors.primaryGreen,
+                    textColor: Colors.white,
+                  ),
                 ),
                 SizedBox(height: 3.h),
               ],

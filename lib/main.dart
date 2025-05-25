@@ -56,6 +56,11 @@ class _MyAppState extends ConsumerState<MyApp> {
   }
 
   Future<void> _initializeApp() async {
+    ref.read(isLoggedInPreferenceProvider);
+    ref.read(userNamePreferenceProvider);
+    ref.read(userIdPreferenceProvider);
+    ref.read(tokenPreferenceProvider);
+    ref.read(phoneNumberPreferenceProvider);
     // TODO: Uncomment this when we have a way to check for updates
     // checkForUpdate(context, ref);
   }

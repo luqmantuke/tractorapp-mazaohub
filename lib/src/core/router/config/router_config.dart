@@ -5,6 +5,9 @@ import 'package:go_router/go_router.dart';
 import 'package:tractorapp/src/features/auth/presentation/screens/login_screen.dart';
 import 'package:tractorapp/src/features/onboarding/presentation/screens/onboarding_screen.dart';
 import 'package:tractorapp/src/shared/widgets/authWrapper/authentication_wrapper.dart';
+import 'package:tractorapp/src/features/homescreen/presentation/screens/mechanical_owner_home_screen.dart';
+import 'package:tractorapp/src/features/homescreen/presentation/screens/farmer_home_screen.dart';
+import 'package:tractorapp/src/features/homescreen/presentation/screens/agent_home_screen.dart';
 
 final _rootNavigatorKey = GlobalKey<NavigatorState>();
 
@@ -29,6 +32,21 @@ final routerProvider = Provider<GoRouter>((ref) {
         path: '/login',
         name: 'login',
         builder: (context, state) => const LoginScreen(),
+      ),
+      GoRoute(
+        path: '/mechanical-owner-home',
+        name: 'mechanical-owner-home',
+        builder: (context, state) => const MechanicalOwnerHomeScreen(),
+      ),
+      GoRoute(
+        path: '/farmer-home',
+        name: 'farmer-home',
+        builder: (context, state) => const FarmerHomeScreen(),
+      ),
+      GoRoute(
+        path: '/agent-home',
+        name: 'agent-home',
+        builder: (context, state) => const AgentHomeScreen(),
       ),
     ],
   );
