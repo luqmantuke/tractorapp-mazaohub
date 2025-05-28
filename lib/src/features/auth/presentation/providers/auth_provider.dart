@@ -1,5 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:tractorapp/src/core/providers/shared_preferences/shared_preference_provider.dart';
+import 'package:tractorapp/src/core/router/config/router_config.dart';
 import '../../data/auth_data.dart';
 
 // Auth states
@@ -55,6 +56,12 @@ class AuthNotifier extends AsyncNotifier<AuthState> {
         error: result.error,
       ));
     }
+  }
+
+  void signOut() {
+    final prefs = ref.read(sharedPreferenceInstanceProvider);
+    prefs.clear();
+    ref.read(routerProvider).goNamed('authenticationWrapper');
   }
 
   void reset() {
