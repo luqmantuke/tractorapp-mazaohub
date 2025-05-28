@@ -13,6 +13,7 @@ import 'package:tractorapp/src/shared/widgets/authWrapper/authentication_wrapper
 import 'package:tractorapp/src/features/homescreen/presentation/screens/mechanical_owner_home_screen.dart';
 import 'package:tractorapp/src/features/homescreen/presentation/screens/farmer_home_screen.dart';
 import 'package:tractorapp/src/features/homescreen/presentation/screens/agent_home_screen.dart';
+import 'package:tractorapp/src/features/homescreen/presentation/screens/mechanical_owner_machine_details_screen.dart';
 
 final _rootNavigatorKey = GlobalKey<NavigatorState>();
 
@@ -81,6 +82,13 @@ final routerProvider = Provider<GoRouter>((ref) {
         path: '/farmer-quote',
         name: 'farmer-quote',
         builder: (context, state) => const FarmerQuoteScreen(),
+      ),
+      GoRoute(
+        path: '/mechanical-owner-machine-details',
+        name: 'mechanical-owner-machine-details',
+        builder: (context, state) => MechanicalOwnerMachineDetailsScreen(
+          machine: state.extra as Map<String, dynamic>,
+        ),
       ),
     ],
   );

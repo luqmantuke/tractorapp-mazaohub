@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import '../../../../../core/constants/colors.dart';
 
@@ -174,119 +175,132 @@ class _MechanicalOwnerHomePageState extends State<MechanicalOwnerHomePage>
 
   Widget _buildTractorCard({required Map<String, dynamic> data}) {
     final active = data['active'] as bool;
-    return Container(
-      margin: EdgeInsets.only(bottom: 2.h),
-      padding: EdgeInsets.all(3.w),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(16),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.grey.withOpacity(0.08),
-            blurRadius: 8,
-            offset: const Offset(0, 2),
-          ),
-        ],
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              ClipRRect(
-                borderRadius: BorderRadius.circular(8),
-                child: Image.network(
-                  data['image'],
-                  width: 60,
-                  height: 60,
-                  fit: BoxFit.cover,
+    return GestureDetector(
+      onTap: () {
+        context.pushNamed(
+          'mechanical-owner-machine-details',
+          extra: {
+            'image': data['image'] ?? 'https://via.placeholder.com/150',
+            'name': data['title'] ?? 'Unknown',
+            'location': data['location'] ?? 'Unknown',
+            // ...add all other fields with defaults
+          },
+        );
+      },
+      child: Container(
+        margin: EdgeInsets.only(bottom: 2.h),
+        padding: EdgeInsets.all(3.w),
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(16),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.grey.withOpacity(0.08),
+              blurRadius: 8,
+              offset: const Offset(0, 2),
+            ),
+          ],
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(8),
+                  child: Image.network(
+                    data['image'],
+                    width: 60,
+                    height: 60,
+                    fit: BoxFit.cover,
+                  ),
                 ),
-              ),
-              SizedBox(width: 3.w),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(data['title'],
+                SizedBox(width: 3.w),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(data['title'],
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 16.sp)),
+                          ),
+                          Container(
+                            padding: EdgeInsets.symmetric(
+                                horizontal: 2.w, vertical: 0.5.h),
+                            decoration: BoxDecoration(
+                              color:
+                                  active ? AppColors.primaryGreen : Colors.grey,
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            child: Text(
+                              active ? 'Active' : 'In-Active',
                               style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 16.sp)),
-                        ),
-                        Container(
-                          padding: EdgeInsets.symmetric(
-                              horizontal: 2.w, vertical: 0.5.h),
-                          decoration: BoxDecoration(
-                            color:
-                                active ? AppColors.primaryGreen : Colors.grey,
-                            borderRadius: BorderRadius.circular(8),
+                                  color: Colors.white, fontSize: 13.sp),
+                            ),
                           ),
-                          child: Text(
-                            active ? 'Active' : 'In-Active',
-                            style:
-                                TextStyle(color: Colors.white, fontSize: 13.sp),
-                          ),
-                        ),
-                      ],
+                        ],
+                      ),
+                      SizedBox(height: 0.5.h),
+                      Text(data['location'],
+                          style: TextStyle(
+                              color: Colors.grey[600], fontSize: 14.sp)),
+                      Text('Coordinates: ${data['coordinates']}',
+                          style: TextStyle(
+                              color: Colors.grey[600], fontSize: 13.sp)),
+                      Text(data['time'],
+                          style: TextStyle(
+                              color: Colors.grey[500], fontSize: 12.sp)),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(height: 1.5.h),
+            Text(
+              data['desc'],
+              style: TextStyle(color: Colors.grey[700], fontSize: 14.sp),
+            ),
+            SizedBox(height: 1.5.h),
+            Row(
+              children: [
+                Expanded(
+                  child: OutlinedButton(
+                    onPressed: () {},
+                    style: OutlinedButton.styleFrom(
+                      side: const BorderSide(color: AppColors.primaryGreen),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8)),
+                      minimumSize: Size(double.infinity, 5.h),
+                      padding: const EdgeInsets.symmetric(vertical: 0),
                     ),
-                    SizedBox(height: 0.5.h),
-                    Text(data['location'],
+                    child: Text('Cancel',
                         style: TextStyle(
-                            color: Colors.grey[600], fontSize: 14.sp)),
-                    Text('Coordinates: ${data['coordinates']}',
-                        style: TextStyle(
-                            color: Colors.grey[600], fontSize: 13.sp)),
-                    Text(data['time'],
-                        style: TextStyle(
-                            color: Colors.grey[500], fontSize: 12.sp)),
-                  ],
-                ),
-              ),
-            ],
-          ),
-          SizedBox(height: 1.5.h),
-          Text(
-            data['desc'],
-            style: TextStyle(color: Colors.grey[700], fontSize: 14.sp),
-          ),
-          SizedBox(height: 1.5.h),
-          Row(
-            children: [
-              Expanded(
-                child: OutlinedButton(
-                  onPressed: () {},
-                  style: OutlinedButton.styleFrom(
-                    side: const BorderSide(color: AppColors.primaryGreen),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(8)),
-                    minimumSize: Size(double.infinity, 5.h),
-                    padding: const EdgeInsets.symmetric(vertical: 0),
+                            color: AppColors.primaryGreen, fontSize: 14.sp)),
                   ),
-                  child: Text('Cancel',
-                      style: TextStyle(
-                          color: AppColors.primaryGreen, fontSize: 14.sp)),
                 ),
-              ),
-              SizedBox(width: 3.w),
-              Expanded(
-                child: ElevatedButton(
-                  onPressed: () {},
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: AppColors.primaryGreen,
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(8)),
-                    minimumSize: Size(double.infinity, 5.h),
-                    padding: const EdgeInsets.symmetric(vertical: 0),
+                SizedBox(width: 3.w),
+                Expanded(
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppColors.primaryGreen,
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8)),
+                      minimumSize: Size(double.infinity, 5.h),
+                      padding: const EdgeInsets.symmetric(vertical: 0),
+                    ),
+                    child: Text('Lease Tractor',
+                        style: TextStyle(color: Colors.white, fontSize: 14.sp)),
                   ),
-                  child: Text('Lease Tractor',
-                      style: TextStyle(color: Colors.white, fontSize: 14.sp)),
                 ),
-              ),
-            ],
-          ),
-        ],
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }

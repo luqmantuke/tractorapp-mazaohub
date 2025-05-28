@@ -95,14 +95,14 @@ class MechanicalOwnerMachineDetailsScreen extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(machine['name'],
-                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18.sp)),
+            Text(machine['name'] ?? '-',
+                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16.sp)),
             Row(
               children: [
-                Icon(Icons.location_on, size: 16, color: Colors.grey[600]),
+                Icon(Icons.location_on, size: 14, color: Colors.grey[600]),
                 SizedBox(width: 1.w),
-                Text(machine['location'],
-                    style: TextStyle(color: Colors.grey[700], fontSize: 15.sp)),
+                Text(machine['location'] ?? '-',
+                    style: TextStyle(color: Colors.grey[700], fontSize: 13.sp)),
               ],
             ),
           ],
@@ -112,16 +112,16 @@ class MechanicalOwnerMachineDetailsScreen extends StatelessWidget {
             children: [
               TextSpan(
                   text: 'Tsh ',
-                  style: TextStyle(color: Colors.grey[700], fontSize: 15.sp)),
+                  style: TextStyle(color: Colors.grey[700], fontSize: 13.sp)),
               TextSpan(
                   text: '200,000',
                   style: TextStyle(
                       color: AppColors.primaryGreen,
                       fontWeight: FontWeight.bold,
-                      fontSize: 17.sp)),
+                      fontSize: 15.sp)),
               TextSpan(
                   text: '/day',
-                  style: TextStyle(color: Colors.grey[700], fontSize: 14.sp)),
+                  style: TextStyle(color: Colors.grey[700], fontSize: 12.sp)),
             ],
           ),
         ),
@@ -132,20 +132,20 @@ class MechanicalOwnerMachineDetailsScreen extends StatelessWidget {
   Widget _buildLocationAndActive(Map<String, dynamic> machine) {
     return Text(
       'Last Active: 23, Mar 2025, 11:30PM',
-      style: TextStyle(color: Colors.grey[500], fontSize: 13.sp),
+      style: TextStyle(color: Colors.grey[500], fontSize: 11.5.sp),
     );
   }
 
   Widget _buildRating() {
     return Row(
       children: [
-        const Icon(Icons.star, color: Colors.amber, size: 18),
+        const Icon(Icons.star, color: Colors.amber, size: 16),
         SizedBox(width: 1.w),
         Text('4.5',
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15.sp)),
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13.sp)),
         SizedBox(width: 1.w),
         Text(' (20 Review)',
-            style: TextStyle(color: Colors.grey[600], fontSize: 14.sp)),
+            style: TextStyle(color: Colors.grey[600], fontSize: 12.sp)),
       ],
     );
   }
@@ -160,7 +160,7 @@ class MechanicalOwnerMachineDetailsScreen extends StatelessWidget {
             unselectedLabelColor: Colors.grey,
             indicatorColor: AppColors.orange,
             indicatorWeight: 3,
-            labelStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 16.sp),
+            labelStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 14.sp),
             tabs: const [
               Tab(text: 'Activity'),
               Tab(text: 'Maintanance'),
@@ -196,50 +196,32 @@ class MechanicalOwnerMachineDetailsScreen extends StatelessWidget {
         children: [
           Text(
             'Tractor Details',
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16.sp),
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14.sp),
           ),
           SizedBox(height: 1.h),
           Text(
             'To provide safe, efficient, and customer-focused transport services that help businesses thrive by ensuring goods reach their destination on time and in perfect condition.',
-            style: TextStyle(color: Colors.grey[700], fontSize: 14.sp),
+            style: TextStyle(color: Colors.grey[700], fontSize: 12.sp),
           ),
           SizedBox(height: 1.h),
-          Row(
-            children: [
-              for (int i = 0; i < 3; i++)
-                Padding(
-                  padding: EdgeInsets.only(right: 2.w),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Image.network(
-                      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80',
-                      width: 70,
-                      height: 70,
-                      fit: BoxFit.cover,
-                    ),
-                  ),
-                ),
-            ],
-          ),
           SizedBox(height: 1.h),
-          _buildDetailsRow('Location:', 'Upanga street'),
-          _buildDetailsRow('Coordinates:', '000087h897'),
-          _buildDetailsRow('Duration:', '3 days'),
-          _buildDetailsRow('Last Operator:', 'Ally Juma'),
-          _buildDetailsRow('Contact:', '255 788 000 000'),
-          _buildDetailsRow('Mechanic:', 'Juma Ally'),
-          _buildDetailsRow('Cost:', 'Tsh. 120,000.00'),
-          _buildDetailsRow('Issue:', 'No issue'),
-          _buildDetailsRow('Active Hrs:', '200hrs'),
-          _buildDetailsRow('InActive Hrs:', '12hrs'),
-          _buildDetailsRow('Fuel History:', '11000lts'),
-          _buildDetailsRow('Area Covered:', '12,000,000hct'),
-          _buildDetailsRow('Last Maintenence:', '02.12.2023'),
+          _buildDetailsRow('Location:', 'Upanga street', fontSize: 12),
+          _buildDetailsRow('Coordinates:', '000087h897', fontSize: 12),
+          _buildDetailsRow('Duration:', '3 days', fontSize: 12),
+          _buildDetailsRow('Last Operator:', 'Ally Juma', fontSize: 12),
+          _buildDetailsRow('Contact:', '255 788 000 000', fontSize: 12),
+          _buildDetailsRow('Mechanic:', 'Juma Ally', fontSize: 12),
+          _buildDetailsRow('Cost:', 'Tsh. 120,000.00', fontSize: 12),
+          _buildDetailsRow('Issue:', 'No issue', fontSize: 12),
+          _buildDetailsRow('Active Hrs:', '200hrs', fontSize: 12),
+          _buildDetailsRow('InActive Hrs:', '12hrs', fontSize: 12),
+          _buildDetailsRow('Fuel History:', '11000lts', fontSize: 12),
+          _buildDetailsRow('Area Covered:', '12,000,000hct', fontSize: 12),
+          _buildDetailsRow('Last Maintenence:', '02.12.2023', fontSize: 12),
           Row(
             children: [
-              Text('Status:',
-                  style:
-                      TextStyle(fontWeight: FontWeight.w500, fontSize: 14.sp)),
+              const Text('Status:',
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 12)),
               SizedBox(width: 2.w),
               Container(
                 padding:
@@ -248,8 +230,8 @@ class MechanicalOwnerMachineDetailsScreen extends StatelessWidget {
                   color: AppColors.primaryGreen,
                   borderRadius: BorderRadius.circular(8),
                 ),
-                child: Text('Available',
-                    style: TextStyle(color: Colors.white, fontSize: 13.sp)),
+                child: const Text('Available',
+                    style: TextStyle(color: Colors.white, fontSize: 11)),
               ),
             ],
           ),
@@ -258,7 +240,7 @@ class MechanicalOwnerMachineDetailsScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildDetailsRow(String label, String value) {
+  Widget _buildDetailsRow(String label, String value, {double fontSize = 12}) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 2),
       child: Row(
@@ -266,11 +248,13 @@ class MechanicalOwnerMachineDetailsScreen extends StatelessWidget {
           SizedBox(
               width: 120,
               child: Text(label,
-                  style: TextStyle(color: Colors.grey[700], fontSize: 14.sp))),
+                  style: TextStyle(
+                      color: Colors.grey[700], fontSize: fontSize.toDouble()))),
           Expanded(
               child: Text(value,
-                  style:
-                      TextStyle(fontWeight: FontWeight.w500, fontSize: 14.sp))),
+                  style: TextStyle(
+                      fontWeight: FontWeight.w500,
+                      fontSize: fontSize.toDouble()))),
         ],
       ),
     );
