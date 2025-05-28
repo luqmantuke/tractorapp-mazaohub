@@ -1,4 +1,4 @@
-# Yangasc
+# MazaoHub Tractor App
 
 A Flutter application following clean architecture principles.
 
@@ -104,6 +104,7 @@ lib/
 ## Architecture
 
 This project follows clean architecture principles with:
+
 - Feature-based organization
 - Riverpod for state management
 - GoRouter for navigation

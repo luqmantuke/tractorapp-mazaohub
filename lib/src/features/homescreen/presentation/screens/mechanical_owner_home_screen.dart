@@ -18,7 +18,6 @@ class _MechanicalOwnerHomeScreenState extends State<MechanicalOwnerHomeScreen> {
 
   late final List<Widget> _pages = [
     const MechanicalOwnerHomePage(),
-    const Center(child: Text('Mechanical Owner Search Page')),
     const CommonNotificationsWidget(),
     const CommonProfileWidget(),
   ];
