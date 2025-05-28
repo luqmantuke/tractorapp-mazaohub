@@ -1,18 +1,40 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
+import '../widgets/mechanical_owner/mechanical_owner_app_bar.dart';
+import '../widgets/mechanical_owner/mechanical_owner_bottom_nav.dart';
+import 'package:tractorapp/src/shared/widgets/common/notifications_widget.dart';
+import 'package:tractorapp/src/shared/widgets/common/profile_widget.dart';
+import '../widgets/mechanical_owner/mechanical_owner_home_page.dart';
 
-class MechanicalOwnerHomeScreen extends StatelessWidget {
+class MechanicalOwnerHomeScreen extends StatefulWidget {
   const MechanicalOwnerHomeScreen({super.key});
+
+  @override
+  State<MechanicalOwnerHomeScreen> createState() =>
+      _MechanicalOwnerHomeScreenState();
+}
+
+class _MechanicalOwnerHomeScreenState extends State<MechanicalOwnerHomeScreen> {
+  int _selectedIndex = 0;
+
+  late final List<Widget> _pages = [
+    const MechanicalOwnerHomePage(),
+    const Center(child: Text('Mechanical Owner Search Page')),
+    const CommonNotificationsWidget(),
+    const CommonProfileWidget(),
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-          title:
-              Text('Mechanical Owner Home', style: TextStyle(fontSize: 18.sp))),
-      body: Center(
-        child: Text('Welcome, Mechanical Owner!',
-            style: TextStyle(fontSize: 18.sp)),
+      appBar: const MechanicalOwnerAppBar(),
+      body: _pages[_selectedIndex],
+      bottomNavigationBar: MechanicalOwnerBottomNav(
+        selectedIndex: _selectedIndex,
+        onTap: (index) {
+          setState(() {
+            _selectedIndex = index;
+          });
+        },
       ),
     );
   }
